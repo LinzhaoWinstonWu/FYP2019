@@ -1,0 +1,112 @@
+[
+   {
+      "clickable": "true",
+      "content-desc": "Share",
+      "coordinates": {
+         "from": [
+            460,
+            33
+         ],
+         "to": [
+            545,
+            108
+         ]
+      },
+      "dimensions": {
+         "height": 75,
+         "width": 85
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.FilipTranslate_124-output/stoat_fsm_output/ui/S_350",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Voice Input",
+      "coordinates": {
+         "from": [
+            545,
+            33
+         ],
+         "to": [
+            630,
+            108
+         ]
+      },
+      "dimensions": {
+         "height": 75,
+         "width": 85
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.FilipTranslate_124-output/stoat_fsm_output/ui/S_350",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Pro Version",
+      "coordinates": {
+         "from": [
+            630,
+            33
+         ],
+         "to": [
+            715,
+            108
+         ]
+      },
+      "dimensions": {
+         "height": 75,
+         "width": 85
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.FilipTranslate_124-output/stoat_fsm_output/ui/S_350",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Help",
+      "coordinates": {
+         "from": [
+            715,
+            33
+         ],
+         "to": [
+            800,
+            108
+         ]
+      },
+      "dimensions": {
+         "height": 75,
+         "width": 85
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.FilipTranslate_124-output/stoat_fsm_output/ui/S_350",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            7,
+            1086
+         ],
+         "to": [
+            793,
+            1156
+         ]
+      },
+      "dimensions": {
+         "height": 70,
+         "width": 786
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.FilipTranslate_124-output/stoat_fsm_output/ui/S_350",
+      "text": "Back to translator",
+      "widget_class": "Button"
+   }
+]

@@ -1,0 +1,4 @@
+./process-clipping.py
+./google-play-screenshot-scraper.py
+./preprocess-rcnn-leaf.py
+./process-screenshots.py

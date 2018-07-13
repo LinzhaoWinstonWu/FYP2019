@@ -1,0 +1,68 @@
+[
+   {
+      "clickable": "false",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            635.7771260997067,
+            0
+         ],
+         "to": [
+            675.6598240469208,
+            54.43465703971119
+         ]
+      },
+      "dimensions": {
+         "height": 54.43465703971119,
+         "width": 39.88269794721407
+      },
+      "focusable": "false",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_752",
+      "text": "",
+      "widget_class": "CheckBox"
+   },
+   {
+      "clickable": "false",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            635.7771260997067,
+            179.10758122743684
+         ],
+         "to": [
+            675.6598240469208,
+            235.29819494584837
+         ]
+      },
+      "dimensions": {
+         "height": 56.19061371841153,
+         "width": 39.88269794721407
+      },
+      "focusable": "false",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_752",
+      "text": "",
+      "widget_class": "CheckBox"
+   },
+   {
+      "clickable": "false",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            635.7771260997067,
+            284.4649819494585
+         ],
+         "to": [
+            675.6598240469208,
+            340.65559566787
+         ]
+      },
+      "dimensions": {
+         "height": 56.1906137184115,
+         "width": 39.88269794721407
+      },
+      "focusable": "false",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_752",
+      "text": "",
+      "widget_class": "CheckBox"
+   }
+]

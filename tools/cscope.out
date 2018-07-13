@@ -1,0 +1,8566 @@
+cscope 15 $HOME/workplace/FYP_2017/tools -q 0000000464 0000043891
+	@google-play-screenshot-scraper.py
+
+1 
+impÜt
+ 
+¬g·r£
+
+
+2 
+impÜt
+ 
+glob
+
+
+3 
+impÜt
+ 
+io
+
+
+4 
+impÜt
+ 
+jsÚ
+
+
+5 
+impÜt
+ 
+os
+
+
+6 
+impÜt
+ 
+	gos
+.
+·th
+ 
+as
+ 
+o¥
+
+
+7 
+impÜt
+ 
+»
+
+
+8 
+impÜt
+ 
+shut
+
+
+9 
+impÜt
+ 
+time
+
+
+10 
+impÜt
+ 
+sys
+
+
+11 
+impÜt
+ 
+	g»que¡s
+
+
+13 #äom 
+u¾lib
+.
+»que¡
+ 
+impÜt
+ 
+u¾İ’
+
+
+14 
+äom
+ 
+PIL
+ 
+impÜt
+ 
+Image
+
+
+15 
+äom
+ 
+muÉroûssšg
+ 
+impÜt
+ 
+	gPoŞ
+, 
+V®ue
+
+
+16 
+äom
+ 
+tqdm
+ 
+impÜt
+qdm
+
+18 
+	g·r£r
+ = 
+¬g·r£
+.
+	$Argum’tP¬£r
+()
+
+19 
+·r£r
+.
+	`add_¬gum’t
+("--šput_dœ", 
+»quœed
+=
+True
+, 
+h–p
+="patho folder containing Play Store json files", ='data/play_store_json')
+
+20 
+·r£r
+.
+	`add_¬gum’t
+("--ouut_dœ", 
+h–p
+="directoryo store output screenshots", ='data')
+
+21 
+a
+ = 
+·r£r
+.
+	$·r£_¬gs
+()
+
+23 
+OUTPUT_DIR
+ = "play_store_screenshots"
+
+25 
+def
+ 
+	$sü­e
+():
+
+26 
+¡¬t
+ = 
+time
+.
+	$time
+()
+
+27 
+num_´oûs£d
+ = 0
+
+28 
+idx
+ = 0
+
+29 
+fes
+ = 
+glob
+.
+	`glob
+(
+a
+.
+šput_dœ
+ + "/*.json")
+
+30 
+šfe
+ 
+š
+ 
+fes
+:
+
+31 
+w™h
+ 
+	$İ’
+(
+šfe
+è
+as
+ 
+f
+:
+
+32 
+d©a¡Üe
+ = 
+jsÚ
+.
+	$lßd
+(
+f
+)
+
+33 
+u¾s
+ = 
+d©a¡Üe
+['screenshot_url']
+
+34 
+u¾
+ 
+š
+ 
+u¾s
+:
+
+35 
+Œy
+:
+
+36 
+u¾
+ = 
+»
+.
+	`sub
+(
+r
+'^//', 'http://', url)
+
+37 #àğ
+	`u¾İ’
+(
+u¾
+)
+
+38 #im = 
+io
+.
+	`By‹sIO
+(
+f
+.
+	`»ad
+())
+
+39 
+r
+ = 
+»que¡s
+.
+	$g‘
+(
+u¾
+)
+
+40 
+im
+ = 
+io
+.
+	$By‹sIO
+(
+r
+.
+cÚ‹Á
+)
+
+41 
+img
+ = 
+Image
+.
+	$İ’
+(
+im
+)
+
+42 
+img
+.
+	`§ve
+(
+o¥
+.
+	`još
+(
+OUTPUT_DIR
+, "{0:0>6}.²g".
+	$fÜm©
+(
+idx
+)))
+
+43 
+exû±
+ 
+IOE¼Ü
+ 
+as
+ 
+e
+:
+
+44 
+¿i£
+ 
+e
+
+
+45 
+idx
++=1
+
+46 
+num_´oûs£d
+ += 1
+
+47 
+num_´oûs£d
+%5 
+is
+ 0:
+
+48 
+	`´št
+("% oà% ´oûs£d" % (
+num_´oûs£d
+, 
+	$Ën
+(
+fes
+)))
+
+50 
+	`´št
+("[+] Com¶‘ed iÀ{} secÚds".
+	`fÜm©
+(
+time
+.
+	`time
+()-
+¡¬t
+))
+
+52 
+def
+ 
+	$sü­e_·¿Î–
+(
+fe
+):
+
+53 
+glob®
+ 
+couÁ
+
+
+55 
+sü“nshÙs
+ = {
+	}
+}
+
+56 
+m‘a_d©a
+ = {}
+
+58 
+du¶iÿ‹
+ = 
+F®£
+
+
+60 
+w™h
+ 
+	$İ’
+(
+fe
+è
+as
+ 
+f
+:
+
+61 
+d©a¡Üe
+ = 
+jsÚ
+.
+	$lßd
+(
+f
+)
+
+62 
+u¾s
+ = 
+d©a¡Üe
+['screenshot_url']
+
+63 
+ba£Çme
+ = 
+o¥
+.
+	$ba£Çme
+(
+fe
+)
+
+64 
+f’ame
+ = 
+o¥
+.
+	`¥l™ext
+(
+ba£Çme
+)[0]
+
+65 
+u¾
+ 
+š
+ 
+u¾s
+:
+
+66 
+Œy
+:
+
+67 
+u¾
+ = 
+»
+.
+	`sub
+(
+r
+'^//', 'http://', url)
+
+68 #àğ
+	`u¾İ’
+(
+u¾
+)
+
+69 #im = 
+io
+.
+	`By‹sIO
+(
+f
+.
+	`»ad
+())
+
+70 
+r
+ = 
+»que¡s
+.
+	$g‘
+(
+u¾
+)
+
+71 
+im
+ = 
+io
+.
+	$By‹sIO
+(
+r
+.
+cÚ‹Á
+)
+
+72 
+img
+ = 
+Image
+.
+	$İ’
+(
+im
+)
+
+74 
+k
+, 
+v
+ 
+š
+ 
+	$’um”©e
+(
+sü“nshÙs
+):
+
+75 
+diff_scÜe
+ = 
+	$com·»Hi¡o
+(
+img
+, 
+v
+)
+
+76 
+diff_scÜe
+ < 0.17:
+
+77 
+du¶iÿ‹
+ = 
+True
+
+
+79 
+nÙ
+ 
+du¶iÿ‹
+:
+
+80 
+w™h
+ 
+couÁ
+.
+	$g‘_lock
+():
+
+81 
+couÁ
+.
+v®ue
+ += 1
+
+82 
+·th
+ = 
+o¥
+.
+	`još
+(
+OUTPUT_DIR
+, 
+f’ame
++"_{0:0>6}.²g".
+	$fÜm©
+(
+couÁ
+.
+v®ue
+))
+
+83 
+img
+.
+	$§ve
+(
+·th
+)
+
+84 
+sü“nshÙs
+[
+·th
+] = 1
+
+85 #²gli¡.
+	`­³nd
+(
+couÁ
+.
+v®ue
+)
+
+88 
+exû±
+ 
+IOE¼Ü
+ 
+as
+ 
+e
+:
+
+89 
+	`´št
+("[-] IOE¼Ü - {}".
+	$fÜm©
+(
+fe
+))
+
+92 
+du¶iÿ‹
+ = 
+F®£
+
+
+94 #ba£Çmğ
+o¥
+.
+	`ba£Çme
+(
+fe
+)
+
+95 #f’amğ
+o¥
+.
+	`¥l™ext
+(
+ba£Çme
+)[0]
+
+96 #pkg = 
+f’ame
+.
+	`»¶aû
+('_', '.')
+
+97 #m‘a_d©a[
+pkg
+] = 
+²gli¡
+
+
+98 #»tuº 
+m‘a_d©a
+
+
+100 
+def
+ 
+	$com·»Hi¡o
+(
+fœ¡
+, 
+£c
+):
+
+101 #imA = 
+Image
+.
+	`İ’
+(
+fœ¡
+)
+
+102 
+imA
+ = 
+fœ¡
+
+
+103 
+imB
+ = 
+Image
+.
+	$İ’
+(
+£c
+)
+
+105 #NÜm®i£ 
+the
+ 
+sÿË
+ 
+of
+ 
+images
+
+
+106 
+imA
+.
+size
+[0] > 
+imB
+.size[0]:
+
+107 
+imA
+ = imA.
+	`»size
+((
+imB
+.
+size
+[0], imA.size[1]))
+
+109 
+imB
+ = imB.
+	`»size
+((
+imA
+.
+size
+[0], imB.size[1]))
+
+111 
+imA
+.
+size
+[1] > 
+imB
+.size[1]:
+
+112 
+imA
+ = imA.
+	`»size
+((imA.
+size
+[0], 
+imB
+.size[1]))
+
+114 
+imB
+ = imB.
+	`»size
+((imB.
+size
+[0], 
+imA
+.size[1]))
+
+116 
+hA
+ = 
+imA
+.
+	$hi¡og¿m
+()
+
+117 
+hB
+ = 
+imB
+.
+	$hi¡og¿m
+()
+
+118 
+sum_hA
+ = 0.0
+
+119 
+sum_hB
+ = 0.0
+
+120 
+diff
+ = 0.0
+
+122 
+i
+ 
+š
+ 
+	`¿nge
+(
+	$Ën
+(
+hA
+è
+	`Ën
+(hAè<ğ
+	$Ën
+(
+hB
+è
+	$Ën
+(
+hB
+)):
+
+123 #´št(
+sum_hA
+)
+
+124 
+sum_hA
+ +ğ
+hA
+[
+i
+]
+
+125 
+sum_hB
+ +ğ
+hB
+[
+i
+]
+
+126 
+diff
+ +ğ
+	`abs
+(
+hA
+[
+i
+] - 
+hB
+[i])
+
+128  
+diff
+/(2*
+	$max
+(
+sum_hA
+, 
+sum_hB
+))
+
+130 
+def
+ 
+	$š™
+(
+c
+):
+
+131 
+glob®
+ 
+couÁ
+
+
+132 
+couÁ
+ = 
+c
+
+
+135 
+__Çme__
+ == "__main__":
+
+137 
+a
+.
+ouut_dœ
+ 
+is
+ 
+nÙ
+ 
+NÚe
+:
+
+138 
+OUTPUT_DIR
+ = 
+o¥
+.
+	$još
+(
+a
+.
+ouut_dœ
+, 
+OUTPUT_DIR
+)
+
+140 
+o¥
+.
+	$exi¡s
+(
+OUTPUT_DIR
+):
+
+141 
+shut
+.
+	$rmŒ“
+(
+OUTPUT_DIR
+)
+
+142 
+os
+.
+	$makedœs
+(
+OUTPUT_DIR
+)
+
+145 
+fes
+ = 
+glob
+.
+	`glob
+(
+a
+.
+šput_dœ
+ + "/*.json")
+
+146 
+m‘a_dump
+ = {
+	}
+}
+
+148 
+couÁ
+ = 
+V®ue
+('i', 0)
+
+150 
+	g¡¬t
+ = 
+time
+.
+	$time
+()
+
+151 
+p
+ = 
+	`PoŞ
+(
+š™Ÿliz”
+=
+š™
+, 
+š™¬gs
+=(
+couÁ
+,))
+
+152 
+mt
+ 
+š
+ 
+	`tqdm
+(
+p
+.
+	`im­
+(
+sü­e_·¿Î–
+, 
+fes
+), 
+tÙ®
+=
+	$Ën
+(
+fes
+)):
+
+153 #m‘a_dum°ğ{**
+m‘a_dump
+, **
+mt
+}
+
+155 
+p
+.
+	$şo£
+()
+
+156 
+p
+.
+	$još
+()
+
+158 #w™h 
+	`İ’
+(
+o¥
+.
+	`još
+(
+OUTPUT_DIR
+, "m‘a_dump.txt"), 'a+'è
+as
+ 
+f
+:
+
+159 #jsÚ.
+	`dump
+(
+m‘a_dump
+, 
+f
+, 
+sÜt_keys
+=
+True
+)
+
+161 
+	`´št
+("[+] Com¶‘ed iÀ{} secÚds".
+	`fÜm©
+(
+time
+.
+	`time
+()-
+¡¬t
+))
+
+	@preprocess-rcnn-leaf.py
+
+1 
+impÜt
+ 
+¬g·r£
+
+
+2 
+impÜt
+ 
+os
+
+
+3 
+impÜt
+ 
+glob
+
+
+4 
+impÜt
+ 
+shut
+
+
+5 
+impÜt
+ 
+jsÚ
+
+
+6 
+impÜt
+ 
+»
+
+
+7 
+impÜt
+ 
+hashlib
+
+
+8 
+impÜt
+ 
+numpy
+ 
+as
+ 
+Å
+
+
+9 
+impÜt
+ 
+sys
+
+
+10 
+impÜt
+ 
+imgaug
+ 
+as
+ 
+Ÿ
+
+
+12 
+äom
+ 
+imgaug
+ 
+impÜt
+ 
+augm’‹rs
+ 
+as
+ 
+Ÿa
+
+
+13 
+äom
+ 
+muÉroûssšg
+ 
+impÜt
+ 
+	gPoŞ
+, 
+	gV®ue
+, 
+Mªag”
+
+
+14 
+äom
+ 
+lxml
+ 
+impÜt
+ 
+‘»e
+
+
+15 
+äom
+ 
+PIL
+ 
+impÜt
+ 
+	gImage
+, 
+	gImageFe
+, 
+	gImageD¿w
+, 
+ImageFÚt
+
+
+16 
+	gImageFe
+.
+	gLOAD_TRUNCATED_IMAGES
+ = 
+True
+
+
+18 
+·r£r
+ = 
+¬g·r£
+.
+	$Argum’tP¬£r
+()
+
+19 
+·r£r
+.
+	`add_¬gum’t
+("--šput_dœ", 
+»quœed
+=
+True
+, 
+h–p
+="patho folder containing‡pp…ackages")
+
+20 
+a
+ = 
+·r£r
+.
+	$·r£_¬gs
+()
+
+22 
+ouutDœ
+ = "android_data_ambig_aug2_pb"
+
+23 
+dœ_img
+ = 
+os
+.
+·th
+.
+	`još
+(
+ouutDœ
+, "PNGImages")
+
+24 
+dœ_£t
+ = 
+os
+.
+·th
+.
+	`još
+(
+ouutDœ
+, "ImageSets")
+
+25 
+dœ_ªn
+ = 
+os
+.
+·th
+.
+	`još
+(
+ouutDœ
+, "Annotations")
+
+27 #rg‘_li¡ = ["Bu‰Ú", "ImageBu‰Ú", "CompoundBu‰Ú", "Prog»ssB¬", "S“kB¬", "ChrÚom‘”", "CheckBox", "RadioBu‰Ú", "Sw™ch", "Ed™Text", "ToggËBu‰Ú", "R©šgB¬", "SpšÃr",] #"
+V›w
+"]
+
+28 
+rg‘_li¡
+ = ["TextView", "Button", "ImageButton", "SeekBar", "CheckBox", "RadioButton", "EditText",]
+
+31 
+def
+ 
+	$checkFeV®id™y
+(
+šputFe
+):
+
+33 
+Check
+ 
+the
+ 
+v®id™y
+ 
+of
+h
+XML
+ 
+fe
+ 
+ªd
+ 
+ignÜe
+ 
+™
+ 
+possibË
+
+
+34 
+Due
+ 
+to
+ 
+the
+ 
+unknown
+ 
+»asÚs
+,h
+cÚ‹Á
+ 
+š
+ 
+some
+ 
+XML
+ 
+fe
+ 
+is
+ 
+»³tive
+ 
+Ü
+
+
+36 
+homeSü“n_li¡
+ = ["Make yourself‡t home", "You can…ut your favorite‡pps here.", "To see‡ll your‡pps,ouchhe circle."]
+
+37 
+uÆockHomeSü“n_li¡
+ = ["Camera", "[16,600][144,728]", "Phone", "[150,1114][225,1189]", "People", "[256,1114][331,1189]", "Messaging", "[468,1114][543,1189]", "Browser", "[574,1114][649,1189]"]
+
+38 
+brow£r
+ = ["com.android.browser:id/all_btn", "[735,108][800,172]", "com.android.browser:id/taburlbar", "com.android.browser:id/urlbar_focused"]
+
+39 
+w™h
+ 
+	$İ’
+(
+šputFe
+è
+as
+ 
+f
+:
+
+40 
+cÚ‹Á
+ = 
+f
+.
+	$»ad
+()
+
+41 #™ 
+is
+ 
+the
+ 
+Ïyout
+ 
+code
+ th
+whŞe
+ 
+wšdow
+ 
+ªd
+ 
+no
+ 
+rÙ©iÚ
+
+
+42 'bounds="[0,0][800,1216]"' 
+š
+ 
+cÚ‹Á
+ 
+ªd
+ '<h›¿rchy„Ù©iÚ="1">' 
+nÙ
+ in content:
+
+43 
+nÙ
+ 
+	$®l
+(
+keywÜd
+ 
+š
+ 
+cÚ‹Á
+ keywÜd iÀ
+brow£r
+è
+ªd
+ 
+nÙ
+ 
+	$®l
+(
+keywÜd
+ 
+š
+ 
+cÚ‹Á
+ keywÜd iÀ
+homeSü“n_li¡
+è
+ªd
+ 
+nÙ
+ 
+	$®l
+(
+keywÜd
+ 
+š
+ 
+cÚ‹Á
+ keywÜd iÀ
+uÆockHomeSü“n_li¡
+):
+
+44 #™ 
+should
+ 
+nÙ
+ 
+be
+ 
+the
+ 
+hom•age
+ 
+of
+h
+phÚe
+
+
+45 
+bounds_li¡
+ = 
+»
+.
+	`fšd®l
+(
+r
+'bounds="(.+?)"', 
+cÚ‹Á
+)
+
+46 
+	`Ën
+(
+bounds_li¡
+) < 2:
+
+47  
+F®£
+
+
+48 #ià(
+	`Ën
+(
+bounds_li¡
+)è/†’(
+	`£t
+(bounds_li¡)è< 1.2: #sØ
+çr
+, 
+we
+ dØ
+nÙ
+ 
+check
+ 
+this
+ 
+İtiÚ
+
+
+49 #´šˆ
+	`Ën
+(
+‹xt_li¡
+),†’(
+	`£t
+Ñext_li¡)), 
+šputFe
+.
+	`¥l™
+("\\")[-1]
+
+50  
+True
+
+
+52  
+F®£
+
+
+55 
+def
+ 
+	$g‘Dim’siÚs
+(
+coÜ_äom
+, 
+coÜ_to
+):
+
+56 
+dim
+ = {
+	}
+}
+
+57 
+dim
+['width'] = 
+coÜ_to
+[0] - 
+coÜ_äom
+[0]
+
+58 
+dim
+['height'] = 
+coÜ_to
+[1] - 
+coÜ_äom
+[1]
+
+59  
+dim
+
+
+61 
+def
+ 
+	$»move_ov”Ïp
+(
+widg‘s
+, 
+¡©us_b¬
+):
+
+62 
+glob®
+ 
+couÁV®idFe
+, 
+Œaš_v®
+
+
+63 
+w
+ = []
+
+64 
+widg‘s
+.
+	$»v”£
+()
+
+65 
+Ïyout
+ = 
+Å
+.
+	`z”os
+((801,1217), 
+dty³
+=np.)
+
+66 
+idx
+, 
+widg‘
+ 
+š
+ 
+	$’um”©e
+(
+widg‘s
+):
+
+67 
+ov”Ïp
+ = 
+F®£
+
+
+68 
+¡¬ti
+ = 
+widg‘
+['coordinates']['from'][0] + 1
+
+69 
+’di
+ = 
+widg‘
+['coordinates']['to'][0] - 1
+
+70 
+¡¬tj
+ = 
+widg‘
+['coordinates']['from'][1] + 1
+
+71 
+’dj
+ = 
+widg‘
+['coordinates']['to'][1] - 1
+
+73 
+i
+ 
+š
+ 
+	`¿nge
+(
+¡¬ti
+, 
+’di
+ + 1):
+
+74 
+j
+ 
+š
+ 
+	`¿nge
+(
+¡¬tj
+, 
+’dj
+ + 1):
+
+75 
+Ïyout
+[
+i
+][
+j
+] == 1:
+
+76 
+widg‘
+['leaf']:
+
+77 
+ov”Ïp
+ = 
+True
+
+
+78 
+Ïyout
+[
+i
+][
+j
+] = -1
+
+79 
+–if
+ 
+Ïyout
+[
+i
+][
+j
+] == -1:
+
+80 
+ov”Ïp
+ = 
+True
+
+
+81 
+–if
+ 
+Ïyout
+[
+i
+][
+j
+] == 2:
+
+82 
+widg‘
+['leaf']:
+
+83 
+ov”Ïp
+ = 
+True
+
+
+84 
+Ïyout
+[
+i
+][
+j
+] = -1
+
+86 
+widg‘
+['leaf']:
+
+87 
+Ïyout
+[
+i
+][
+j
+] = 1
+
+89 
+Ïyout
+[
+i
+][
+j
+] = 2
+
+91 
+ov”Ïp
+ =ğ
+True
+:
+
+94 
+widg‘
+['Ëaf'] 
+ªd
+ widg‘['widg‘_şass'] 
+š
+ 
+rg‘_li¡
+:
+
+95 
+widg‘
+['widg‘_şass'] =ğ"V›w" 
+ªd
+ 
+	`nÙ
+(widget['clickable'] == "true"‡nd widget['focusable'] == "true"):
+
+98 
+w
+.
+	$­³nd
+(
+widg‘
+)
+
+100 
+w
+:
+
+101 
+w™h
+ 
+couÁV®idFe
+.
+	$g‘_lock
+():
+
+102 
+couÁV®idFe
+.
+v®ue
+ += 1
+
+104 
+Œy
+:
+
+105 
+im
+ = 
+Image
+.
+	`İ’
+(
+w
+[0]['src']+'.png')
+
+106 
+¡©us_b¬
+:
+
+107 
+ş
+ = 
+im
+.
+	`üİ
+((0, 33, 800, 1216))
+
+109 
+ş
+ = 
+im
+.
+	`üİ
+((0, 0, 800, 1216))
+
+110 
+exû±
+ 
+OSE¼Ü
+ 
+as
+ 
+”r
+:
+
+111 
+´št
+ 
+w
+[0]['src']
+
+112 
+´št
+ "[-] OSE¼Ü - " + 
+	$¡r
+(
+”r
+)
+
+113 
+sys
+.
+¡dout
+.
+	$æush
+()
+
+114 
+·ss
+
+
+115 
+exû±
+ 
+IndexE¼Ü
+ 
+as
+ 
+”r
+:
+
+116 
+´št
+ 
+w
+[0]['src']
+
+117 
+´št
+ "[-] IndexE¼Ü - " + 
+	$¡r
+(
+”r
+)
+
+118 
+sys
+.
+¡dout
+.
+	$æush
+()
+
+119 #´šˆ"[-] " + 
+	`¡r
+(
+widg‘
+['coordinates'])
+
+120 #´šˆ"[-] " + 
+	`¡r
+(
+widg‘
+['dimensions'])
+
+121 
+·ss
+
+
+122 
+exû±
+ 
+IOE¼Ü
+ 
+as
+ 
+”r
+: #imag
+fe
+ 
+is
+ 
+Œunÿ‹d
+
+
+123 
+´št
+ 
+w
+[0]['src']
+
+124 
+´št
+ "[-] IOE¼Ü - " + 
+	$¡r
+(
+”r
+)
+
+125 
+sys
+.
+¡dout
+.
+	$æush
+()
+
+126 
+·ss
+
+
+128 
+ş
+.
+	`§ve
+(
+os
+.
+·th
+.
+	`još
+(
+dœ_img
+, "{0:0>6}.²g".
+	$fÜm©
+(
+couÁV®idFe
+.
+v®ue
+)))
+
+129 
+couÁV®idFe
+.
+v®ue
+ % 30 == 1:
+
+130 
+v®
+ = 
+Œaš_v®
+['val']
+
+131 
+v®
+.
+	`­³nd
+("{:06d}".
+	$fÜm©
+(
+couÁV®idFe
+.
+v®ue
+))
+
+132 
+Œaš_v®
+['v®'] = 
+v®
+
+
+134 
+Œaš
+ = 
+Œaš_v®
+['train']
+
+135 
+Œaš
+.
+	`­³nd
+("{:06d}".
+	$fÜm©
+(
+couÁV®idFe
+.
+v®ue
+))
+
+136 
+Œaš_v®
+['Œaš'] = 
+Œaš
+
+
+138 
+Œašv®
+ = 
+Œaš_v®
+['trainval']
+
+139 
+Œašv®
+.
+	`­³nd
+("{:06d}".
+	$fÜm©
+(
+couÁV®idFe
+.
+v®ue
+))
+
+140 
+Œaš_v®
+['Œašv®'] = 
+Œašv®
+
+
+143 
+w™h
+ 
+	`İ’
+(
+os
+.
+·th
+.
+	`još
+(
+dœ_ªn
+, "{0:0>6}.txt".
+	`fÜm©
+(
+couÁV®idFe
+.
+v®ue
+)), 'a+'è
+as
+ 
+f
+:
+
+144 #tm°ğ{
+	}
+}
+
+145 #tmp['­p'] = 
+w
+
+
+146 
+jsÚ
+.
+dump
+(
+w
+, 
+f
+, 
+sÜt_keys
+=
+True
+, 
+šd’t
+=3, 
+£·¿tÜs
+=(',', ': '))
+
+148 #w™h 
+İ’
+(
+os
+.
+·th
+.
+još
+(
+dœ_ªn
+, "{0:0>6}.txt".
+fÜm©
+(
+couÁV®idFe
+.
+v®ue
+)), 'a+'è
+as
+ 
+f
+:
+
+149 #jsÚ.
+dump
+(
+widg‘
+, 
+f
+, 
+sÜt_keys
+=
+True
+, 
+šd’t
+=3, 
+£·¿tÜs
+=(',', ': '))
+
+152 
+def
+ 
+	$com·»Hi¡o
+(
+fœ¡
+, 
+£c
+):
+
+153 
+imA
+ = 
+Image
+.
+	$İ’
+(
+fœ¡
+)
+
+154 
+imB
+ = 
+Image
+.
+	$İ’
+(
+£c
+)
+
+156 #NÜm®i£ 
+the
+ 
+sÿË
+ 
+of
+ 
+images
+
+
+157 
+imA
+.
+size
+[0] > 
+imB
+.size[0]:
+
+158 
+imA
+ = imA.
+	`»size
+((
+imB
+.
+size
+[0], imA.size[1]))
+
+160 
+imB
+ = imB.
+	`»size
+((
+imA
+.
+size
+[0], imB.size[1]))
+
+162 
+imA
+.
+size
+[1] > 
+imB
+.size[1]:
+
+163 
+imA
+ = imA.
+	`»size
+((imA.
+size
+[0], 
+imB
+.size[1]))
+
+165 
+imB
+ = imB.
+	`»size
+((imB.
+size
+[0], 
+imA
+.size[1]))
+
+167 
+hA
+ = 
+imA
+.
+	$hi¡og¿m
+()
+
+168 
+hB
+ = 
+imB
+.
+	$hi¡og¿m
+()
+
+169 
+sum_hA
+ = 0.0
+
+170 
+sum_hB
+ = 0.0
+
+171 
+diff
+ = 0.0
+
+173 
+i
+ 
+š
+ 
+	`¿nge
+(
+	$Ën
+(
+hA
+)):
+
+174 #´št(
+sum_hA
+)
+
+175 
+sum_hA
+ +ğ
+hA
+[
+i
+]
+
+176 
+sum_hB
+ +ğ
+hB
+[
+i
+]
+
+177 
+diff
+ +ğ
+	`abs
+(
+hA
+[
+i
+] - 
+hB
+[i])
+
+179  
+diff
+/(2*
+	$max
+(
+sum_hA
+, 
+sum_hB
+))
+
+181 
+def
+ 
+	$»m
+(
+ªn
+):
+
+182 
+ªn
+['coÜdš©es']['äom'] = 
+	`li¡
+(ann['coordinates']['from'])
+
+183 
+ªn
+['coÜdš©es']['to'] = 
+	`li¡
+(ann['coordinates']['to'])
+
+184 
+ªn
+['coordinates']['from'][1] =‡nn['coordinates']['from'][1] - 33
+
+185 
+ªn
+['coordinates']['to'][1] =‡nn['coordinates']['to'][1] - 33
+
+186 
+ªn
+['coÜdš©es']['äom'] = 
+	`tu¶e
+(ann['coordinates']['from'])
+
+187 
+ªn
+['coÜdš©es']['to'] = 
+	`tu¶e
+(ann['coordinates']['to'])
+
+188  
+ªn
+
+
+190 
+def
+ 
+	$augm’t
+(
+img
+, 
+ªns
+):
+
+191 
+glob®
+ 
+¡©s
+
+
+192 
+width
+, 
+height
+ = 
+img
+.
+size
+
+
+193 
+img
+ = 
+Å
+.
+	$¬¿y
+(
+img
+, 
+dty³
+=
+Å
+.
+ušt8
+)
+
+194 
+v®id
+ = []
+
+196 
+kps
+ = []
+
+197 
+a
+ 
+š
+ 
+ªns
+:
+
+198 
+x1
+ = 
+a
+['coordinates']['from'][0]
+
+199 
+y1
+ = 
+a
+['coordinates']['from'][1]
+
+200 
+x2
+ = 
+a
+['coordinates']['to'][0]
+
+201 
+y2
+ = 
+a
+['coordinates']['to'][1]
+
+202 
+kps
+.
+	`ex‹nd
+([
+Ÿ
+.
+	`Keypošt
+(
+x
+=
+x1
+, 
+y
+=
+y1
+), ia.Keypošt(x=
+x2
+, y=
+y2
+),])
+
+203 
+¡©s
+[
+a
+['widget_class']] += 1
+
+205 
+keypošts
+ = 
+Ÿ
+.
+	$KeypoštsOnImage
+(
+kps
+, 
+sh­e
+=
+img
+.shape)
+
+207 #£q = 
+Ÿa
+.
+	`Sequ’tŸl
+([Ÿa.
+	`FlÌ
+(1.0)])
+
+209 
+£q
+ = 
+Ÿa
+.
+	`SomeOf
+(1, [
+
+210 
+Ÿa
+.
+	`FlÌ
+(1.0),
+
+211 
+Ÿa
+.
+	`CrİAndPad
+(
+³rûÁ
+=(-0.25, 0.25)),
+
+212 
+Ÿa
+.
+	`CrİAndPad
+(
+³rûÁ
+=(-0.2, 0.2))
+
+216 
+£q
+ = 
+Ÿa
+.
+	`Som‘imes
+(
+
+218 
+Ÿa
+.
+	`FlÌ
+(1.0),
+
+219 
+Ÿa
+.
+	`CrİAndPad
+(
+³rûÁ
+=(-0.25, 0.25))
+
+222 
+£q_d‘
+ = 
+£q
+.
+	$to_d‘”mši¡ic
+()
+
+224 #augm’ˆ
+keypošts
+ 
+ªd
+ 
+images
+
+
+225 
+img_aug
+ = 
+£q_d‘
+.
+	`augm’t_images
+([
+img
+])[0]
+
+226 
+keypošts_aug
+ = 
+£q_d‘
+.
+	`augm’t_keypošts
+([
+keypošts
+])[0]
+
+228 
+im
+ = 
+Image
+.
+	$äom¬¿y
+(
+img_aug
+)
+
+229 #fÜ 
+i
+, 
+v®ue
+ 
+š
+ 
+	`¿nge
+(
+	`Ën
+(
+ªns
+)):
+
+230 
+i
+, 
+v®ue
+ 
+š
+ 
+	$’um”©e
+(
+ªns
+):
+
+232 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+x
+ == -1:
+
+233 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+x
+ = 0
+
+234 
+keypošts_aug
+.
+keypošts
+[
+i
+*2+1].
+x
+ == -1:
+
+235 
+keypošts_aug
+.
+keypošts
+[
+i
+*2+1].
+x
+ = 0
+
+237 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+x
+ > keypoints_aug.keypoints[i*2+1].x:
+
+238 
+‹mp
+ = 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+x
+
+
+239 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+x
+ = keypoints_aug.keypoints[i*2+1].x
+
+240 
+keypošts_aug
+.
+keypošts
+[
+i
+*2+1].
+x
+ = 
+‹mp
+
+
+242 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+x
+ < 0:
+
+243 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+x
+ = 0
+
+244 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+x
+ > 
+width
+:
+
+245 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+x
+ = 
+width
+
+
+246 
+keypošts_aug
+.
+keypošts
+[
+i
+*2+1].
+x
+ < 0:
+
+247 
+keypošts_aug
+.
+keypošts
+[
+i
+*2+1].
+x
+ = 0
+
+248 
+keypošts_aug
+.
+keypošts
+[
+i
+*2+1].
+x
+ > 
+width
+:
+
+249 
+keypošts_aug
+.
+keypošts
+[
+i
+*2+1].
+x
+ = 
+width
+
+
+250 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+y
+ < 0:
+
+251 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+y
+ = 0
+
+252 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+y
+ > 
+height
+:
+
+253 
+keypošts_aug
+.
+keypošts
+[
+i
+*2].
+y
+ = 
+height
+
+
+254 
+keypošts_aug
+.
+keypošts
+[
+i
+*2+1].
+y
+ < 0:
+
+255 
+keypošts_aug
+.
+keypošts
+[
+i
+*2+1].
+y
+ = 0
+
+256 
+keypošts_aug
+.
+keypošts
+[
+i
+*2+1].
+y
+ > 
+height
+:
+
+257 
+keypošts_aug
+.
+keypošts
+[
+i
+*2+1].
+y
+ = 
+height
+
+
+259 
+ªns
+[
+i
+]['dim’siÚs'] = 
+	`g‘Dim’siÚs
+((
+keypošts_aug
+.
+keypošts
+[i*2].
+x
+, keypošts_aug.keypošts[i*2].
+y
+), (keypoints_aug.keypoints[i*2+1].x, keypoints_aug.keypoints[i*2+1].y))
+
+260 
+ªns
+[
+i
+]['dim’siÚs']['width'] =ğ0 
+Ü
+‡nns[i]['dimensions']['height'] == 0:
+
+262 
+ªns
+[
+i
+]['coÜdš©es']['äom'] = (
+keypošts_aug
+.
+keypošts
+[i*2].
+x
+, keypošts_aug.keypošts[i*2].
+y
+)
+
+263 
+ªns
+[
+i
+]['coÜdš©es']['to'] = (
+keypošts_aug
+.
+keypošts
+[i*2+1].
+x
+, keypošts_aug.keypošts[i*2+1].
+y
+)
+
+264 
+v®id
+.
+	$­³nd
+(
+i
+)
+
+266 
+aug_ªns
+ = []
+
+267 
+idx
+ 
+š
+ 
+v®id
+:
+
+268 
+aug_ªns
+.
+	`­³nd
+(
+ªns
+[
+idx
+])
+
+271 
+im
+ = 
+Image
+.
+	$äom¬¿y
+(
+img_aug
+)
+
+272 
+d¿w
+ = 
+ImageD¿w
+.
+	$D¿w
+(
+im
+)
+
+273 
+a
+ 
+š
+ 
+aug_ªns
+:
+
+274 
+d¿w
+.
+	`»ùªgË
+((
+a
+['coÜdš©es']['äom'],‡['coÜdš©es']['to']), 
+ouše
+="red")
+
+277 
+i
+ 
+š
+ 
+	`¿nge
+(0,
+	`Ën
+(
+keypošts
+.keypoints),2):
+
+278 
+befÜe
+ = 
+keypošts
+.keypošts[
+i
+]
+
+279 
+aá”
+ = 
+keypošts_aug
+.
+keypošts
+[
+i
+]
+
+280 
+´št
+ "Keypošˆ%d: (%.8f, %.8fè-> (%.8f, %.8f)" % (
+i
+, 
+befÜe
+.
+x
+, befÜe.
+y
+, 
+aá”
+.x,‡fter.y)
+
+281 
+d¿w
+.
+	`»ùªgË
+((
+keypošts_aug
+.
+keypošts
+[
+i
+].
+x
+, keypošts_aug.keypošts[i].
+y
+, keypošts_aug.keypošts[i+1].x, keypošts_aug.keypošts[i+1].y), 
+ouše
+="red")
+
+282 
+im
+.
+	`show
+()
+
+285 
+aug_ªns
+:
+
+286 
+	$Œaš_‹¡_¥l™
+(
+im
+, 
+aug_ªns
+, 
+True
+)
+
+289 
+def
+ 
+	$Œaš_‹¡_¥l™
+(
+ş
+, 
+ªns
+, 
+aug
+=
+F®£
+):
+
+290 
+glob®
+ 
+couÁV®idFe
+, 
+Œaš_v®
+
+
+292 
+w™h
+ 
+couÁV®idFe
+.
+	$g‘_lock
+():
+
+293 
+couÁV®idFe
+.
+v®ue
+ += 1
+
+294 
+couÁ
+ = 
+couÁV®idFe
+.
+v®ue
+
+
+296 
+aug
+:
+
+297 
+Œaš
+ = 
+Œaš_v®
+['train']
+
+298 
+Œaš
+.
+	`­³nd
+("{:06d}".
+	$fÜm©
+(
+couÁ
+))
+
+299 
+Œaš_v®
+['Œaš'] = 
+Œaš
+
+
+301 
+couÁ
+ % 15 == 1:
+
+302 
+v®
+ = 
+Œaš_v®
+['val']
+
+303 
+v®
+.
+	`­³nd
+("{:06d}".
+	$fÜm©
+(
+couÁ
+))
+
+304 
+Œaš_v®
+['v®'] = 
+v®
+
+
+306 
+aug
+ = 
+True
+
+
+307 
+Œaš
+ = 
+Œaš_v®
+['train']
+
+308 
+Œaš
+.
+	`­³nd
+("{:06d}".
+	$fÜm©
+(
+couÁ
+))
+
+309 
+Œaš_v®
+['Œaš'] = 
+Œaš
+
+
+311 
+Œašv®
+ = 
+Œaš_v®
+['trainval']
+
+312 
+Œašv®
+.
+	`­³nd
+("{:06d}".
+	$fÜm©
+(
+couÁ
+))
+
+313 
+Œaš_v®
+['Œašv®'] = 
+Œašv®
+
+
+315 
+w™h
+ 
+	`İ’
+(
+os
+.
+·th
+.
+	`još
+(
+dœ_ªn
+, "{0:0>6}.txt".
+	`fÜm©
+(
+couÁ
+)), 'a+'è
+as
+ 
+f
+:
+
+316 
+jsÚ
+.
+	`dump
+(
+ªns
+, 
+f
+, 
+sÜt_keys
+=
+True
+, 
+šd’t
+=3, 
+£·¿tÜs
+=(',', ': '))
+
+319 
+d¿w
+ = 
+ImageD¿w
+.
+	$D¿w
+(
+ş
+)
+
+320 
+a
+ 
+š
+ 
+ªns
+:
+
+321 
+d¿w
+.
+	`»ùªgË
+((
+a
+['coÜdš©es']['äom'],‡['coÜdš©es']['to']), 
+ouše
+="red")
+
+324 
+ş
+.
+	`§ve
+(
+os
+.
+·th
+.
+	`još
+(
+dœ_img
+, "{0:0>6}.²g".
+	$fÜm©
+(
+couÁ
+)))
+
+325  
+aug
+
+
+327 
+def
+ 
+	$´•roûss
+(
+šput_fŞd”
+):
+
+328 
+glob®
+ 
+couÁV®idFe
+, 
+Œaš_v®
+
+
+329 
+²gli¡
+ = []
+
+330 
+hash_diù
+ = {
+	}
+}
+
+332 
+šfe
+ 
+š
+ 
+glob
+.glob(
+šput_fŞd”
+ + "/stoat_fsm_output/ui/*.xml"):
+
+333 
+widg‘s_xml
+ = []
+
+334 
+¡©us_b¬
+ = 
+F®£
+
+
+335 
+Çme
+, 
+	gext
+ = 
+os
+.
+·th
+.
+	$¥l™ext
+(
+šfe
+)
+
+336 
+²gfe
+ = 
+šfe
+.
+	`»¶aû
+('.xml', '.png')
+
+337 
+os
+.
+·th
+.
+	$exi¡s
+(
+²gfe
+è
+ªd
+ 
+os
+.
+	`¡©
+Õngfe).
+¡_size
+ > 0‡nd 
+	$checkFeV®id™y
+(
+šfe
+):
+
+338 
+Œy
+:
+
+339 
+Image
+.
+	$İ’
+(
+²gfe
+)
+
+340 
+exû±
+ 
+Exû±iÚ
+ 
+as
+ 
+e
+:
+
+341 
+´št
+ 
+e
+
+
+342 
+sys
+.
+¡dout
+.
+	$æush
+()
+
+345 
+´št
+ 
+²gfe
+
+
+346 #check 
+du¶iÿ‹
+ 
+image
+
+
+347 
+dup
+ = 
+F®£
+
+
+348 
+nÙ
+ 
+²gli¡
+:
+
+349 
+²gli¡
+.
+	$­³nd
+(
+²gfe
+)
+
+351 
+²g
+ 
+š
+ 
+²gli¡
+:
+
+352 
+diff_scÜe
+ = 
+	$com·»Hi¡o
+(
+²gfe
+, 
+²g
+)
+
+353 
+diff_scÜe
+ < 0.051:
+
+354 
+dup
+ = 
+True
+
+
+356 
+dup
+:
+
+359 
+²gli¡
+.
+	$­³nd
+(
+²gfe
+)
+
+361 
+ùx
+ = 
+‘»e
+.
+	`™”·r£
+(
+šfe
+, 
+ev’ts
+=('¡¬t',), 
+g
+='node')
+
+362 
+ev’t
+, 
+–em
+ 
+š
+ 
+ùx
+:
+
+363 #Check 
+ªdroid
+ 
+¡©us
+ 
+b¬
+
+
+364 
+–em
+.
+©Œib
+['bounds'] == "[0,33][800,1216]":
+
+365 
+¡©us_b¬
+ = 
+True
+
+
+367 
+widg‘_Çme
+ = 
+–em
+.
+©Œib
+['şass'].
+	`¥l™
+('.')[-1]
+
+368 
+coÜdš©es
+ = 
+»
+.
+	`fšd®l
+(
+r
+"(?<=\[).*?(?=\])", 
+–em
+.
+©Œib
+["bounds"])
+
+369 
+	`Ën
+(
+coÜdš©es
+) != 2:
+
+372 #ià
+nÙ
+ 
+widg‘_Çme
+ 
+š
+ 
+rg‘_li¡
+:
+
+375 #ià
+nÙ
+ 
+widg‘_Çme
+ 
+š
+ 
+Ïyout
+ 
+ªd
+ 
+	`Ën
+(
+–em
+.
+	`g‘chd»n
+()) != 0:
+
+378 
+nÙ
+ 
+widg‘_Çme
+ 
+š
+ 
+rg‘_li¡
+ 
+Ü
+ 
+	`Ën
+(
+–em
+.
+	`g‘chd»n
+()) != 0:
+
+381 
+coÜ_äom
+ = 
+	`tu¶e
+(
+	`m­
+(, 
+coÜdš©es
+[0].
+	`¥l™
+(",")))
+
+382 
+coÜ_to
+ = 
+	`tu¶e
+(
+	`m­
+(, 
+coÜdš©es
+[1].
+	`¥l™
+(",")))
+
+384 
+	`nÙ
+ (
+coÜ_äom
+[0] > 800 
+Ü
+ coÜ_äom[0] < 0 o¸
+coÜ_to
+[0] > 800 or coor_to[0] < 0 or coor_from[1] > 1216 or coor_from[1] < 0 or coor_to[1] > 1216 or coor_to[1] < 0):
+
+385 
+m‘a_d©a
+ = {
+	}
+}
+
+386 
+m‘a_d©a
+['widg‘_şass'] = 
+widg‘_Çme
+
+
+388 
+m‘a_d©a
+['coÜdš©es'] = {'äom': 
+coÜ_äom
+, 'to': 
+coÜ_to
+}
+
+389 
+m‘a_d©a
+['dim’siÚs'] = 
+	$g‘Dim’siÚs
+(
+coÜ_äom
+, 
+coÜ_to
+)
+
+390 
+m‘a_d©a
+['dim’siÚs']['width'] =ğ0 
+Ü
+ meta_data['dimensions']['height'] == 0:
+
+393 #ià(
+m‘a_d©a
+['widg‘_şass'] 
+š
+ 
+Ïyout
+ 
+ªd
+ 
+	`nÙ
+(
+	`Ën
+(
+–em
+.
+	`g‘chd»n
+()è=ğ2‡ndƒËm.g‘chd»n()[0].
+©Œib
+['şass'].
+	`¥l™
+('.')[-1] == "ImageView"‡nd†en(elem.getchildren()[0].getchildren()) == 0‡ndƒlem.getchildren()[1].attrib['class'].split('.')[-1] == "TextView"‡nd†en(elem.getchildren()[1].getchildren()) == 0)):
+
+396 #ià
+m‘a_d©a
+['widg‘_şass'] =ğ"TextV›w" 
+ªd
+ 
+	`nÙ
+ÒÙ(
+–em
+.
+©Œib
+['checkable'] == "true")‡nd‚ot(elem.attrib['checked'] == "true")‡ndƒlem.attrib['clickable'] == "true"‡ndƒlem.attrib['enabled'] == "true"‡ndƒlem.attrib['focusable'] == "true"‡nd‚ot(elem.attrib['focused'] == "true")‡nd‚ot(elem.attrib['scrollable'] == "true")‡ndƒlem.attrib['long-clickable'] == "true"):
+
+399 ià(
+m‘a_d©a
+['widg‘_şass'] =ğ"TextV›w" 
+ªd
+ 
+	`nÙ
+(
+	`Ën
+(
+–em
+.
+©Œib
+['‹xt'].
+	`¥l™
+(" ")) <= 3‡nd‚ot(elem.attrib['checkable'] == "true")‡nd‚ot(elem.attrib['checked'] == "true")‡ndƒlem.attrib['clickable'] == "true"‡ndƒlem.attrib['enabled'] == "true"‡ndƒlem.attrib['focusable'] == "true"‡nd‚ot(elem.attrib['focused'] == "true")‡nd‚ot(elem.attrib['scrollable'] == "true")‡ndƒlem.attrib['long-clickable'] == "true")):
+
+402 #CÏssify 
+	`Prog»ssB¬
+(
+PB
+è
+as
+ 
+cœcuÏr
+/
+hÜizÚl
+ 
+ba£d
+ 
+Ú
+ 
+a¥eù
+ 
+¿tio
+, 
+»maššg
+ 
+»g¬ded
+‡ 
+šv®id
+
+
+403 #CœcuÏ¸
+PB
+: 
+a¥eù_¿tio
+ == 1
+
+404 #HÜizÚÈ
+PB
+: 
+a¥eù_¿tio
+ < 0.3
+
+406 
+m‘a_d©a
+['widget_class'] == "ProgressBar":
+
+407 
+¬
+ = (
+m‘a_d©a
+['dimensions']['height']) / (meta_data['dimensions']['width'])
+
+408 
+¬
+ == 1:
+
+409 
+m‘a_d©a
+['widget_class'] = "CirProgressBar"
+
+410 
+–if
+ 
+¬
+ < 0.3:
+
+411 
+m‘a_d©a
+['widget_class'] = "HrzProgressBar"
+
+413 
+widg‘s_xml
+ = []
+
+417 
+m‘a_d©a
+['‹xt'] = 
+–em
+.
+©Œib
+['text']
+
+418 
+m‘a_d©a
+['şickabË'] = 
+–em
+.
+©Œib
+['clickable']
+
+419 
+m‘a_d©a
+['focu§bË'] = 
+–em
+.
+©Œib
+['focusable']
+
+420 
+m‘a_d©a
+["cÚ‹Á-desc"] = 
+–em
+.
+©Œib
+['content-desc']
+
+421 
+m‘a_d©a
+['¤c'] = 
+Çme
+
+
+423 #ià
+m‘a_d©a
+['widg‘_şass'] =ğ"TextV›w" 
+Ü
+ m‘a_d©a['widg‘_şass'] 
+š
+ 
+Ïyout
+:
+
+424 
+m‘a_d©a
+['widget_class'] == "TextView":
+
+425 
+m‘a_d©a
+['widget_class'] = "ImageButton"
+
+427 
+widg‘s_xml
+.
+	$­³nd
+(
+m‘a_d©a
+)
+
+432 
+widg‘s_xml
+:
+
+433 
+Œy
+:
+
+434 
+im
+ = 
+Image
+.
+	$İ’
+(
+²gfe
+)
+
+435 
+¡©us_b¬
+:
+
+436 
+ş
+ = 
+im
+.
+	`üİ
+((0, 32, 800, 1216))
+
+437 
+w
+ = [
+	$»m
+(
+ªn
+èªÀ
+š
+ 
+widg‘s_xml
+ 
+	`nÙ
+ (ªn['coÜdš©es']['äom'][1] < 33 
+Ü
+‡nn['coordinates']['to'][1] < 33)]
+
+440 
+ş
+ = 
+im
+.
+	`üİ
+((0, 0, 800, 1216))
+
+441 
+w
+ = 
+widg‘s_xml
+
+
+442 
+exû±
+ 
+OSE¼Ü
+ 
+as
+ 
+”r
+:
+
+443 
+´št
+ 
+²gfe
+
+
+444 
+´št
+ "[-] OSE¼Ü - " + 
+	$¡r
+(
+”r
+)
+
+445 
+sys
+.
+¡dout
+.
+	$æush
+()
+
+447 
+exû±
+ 
+IndexE¼Ü
+ 
+as
+ 
+”r
+:
+
+448 
+´št
+ 
+²gfe
+
+
+449 
+´št
+ "[-] IndexE¼Ü - " + 
+	$¡r
+(
+”r
+)
+
+450 
+sys
+.
+¡dout
+.
+	$æush
+()
+
+452 
+exû±
+ 
+IOE¼Ü
+ 
+as
+ 
+”r
+: #imag
+fe
+ 
+is
+ 
+Œunÿ‹d
+
+
+453 
+´št
+ 
+²gfe
+
+
+454 
+´št
+ "[-] IOE¼Ü - " + 
+	$¡r
+(
+”r
+)
+
+455 
+sys
+.
+¡dout
+.
+	$æush
+()
+
+459 
+ât
+ = 
+ImageFÚt
+.
+	`Œu‘y³
+("arial.ttf", 17)
+
+460 
+d¿w
+ = 
+ImageD¿w
+.
+	$D¿w
+(
+ş
+)
+
+461 
+Ïb–
+ 
+š
+ 
+w
+:
+
+462 
+d¿w
+.
+	`»ùªgË
+((
+Ïb–
+['coÜdš©es']['äom'],†ab–['coÜdš©es']['to']), 
+ouše
+="black")
+
+463 
+d¿w
+.
+	`‹xt
+(
+Ïb–
+['coÜdš©es']['äom'],†ab–['widg‘_şass'], 
+fÚt
+=
+ât
+, 
+fl
+="black")
+
+464 
+ş
+.
+	`§ve
+(
+os
+.
+·th
+.
+	`još
+(
+dœ_img
+, "{0:0>6}.²g".
+	`fÜm©
+(
+couÁ
+)))
+
+467 #T¿š/
+Te¡
+ 
+¥l™
+ 
+augm’‹d
+ 
+d©a£t
+
+
+469 
+aug
+ = 
+	$Œaš_‹¡_¥l™
+(
+ş
+, 
+w
+)
+
+470 
+aug
+:
+
+471 
+	`augm’t
+(
+ş
+, 
+w
+)
+
+474 #T¿š/
+Te¡
+ 
+¥l™
+ 
+uÇugm’‹d
+ 
+d©a£t
+
+
+475 
+w™h
+ 
+couÁV®idFe
+.
+	$g‘_lock
+():
+
+476 
+couÁV®idFe
+.
+v®ue
+ += 1
+
+477 
+couÁ
+ = 
+couÁV®idFe
+.
+v®ue
+
+
+479 
+couÁ
+ % 10 == 1:
+
+480 
+v®
+ = 
+Œaš_v®
+['val']
+
+481 
+v®
+.
+	`­³nd
+("{:06d}".
+	$fÜm©
+(
+couÁ
+))
+
+482 
+Œaš_v®
+['v®'] = 
+v®
+
+
+484 
+Œaš
+ = 
+Œaš_v®
+['train']
+
+485 
+Œaš
+.
+	`­³nd
+("{:06d}".
+	$fÜm©
+(
+couÁ
+))
+
+486 
+Œaš_v®
+['Œaš'] = 
+Œaš
+
+
+488 
+Œašv®
+ = 
+Œaš_v®
+['trainval']
+
+489 
+Œašv®
+.
+	`­³nd
+("{:06d}".
+	$fÜm©
+(
+couÁ
+))
+
+490 
+Œaš_v®
+['Œašv®'] = 
+Œašv®
+
+
+492 
+w™h
+ 
+	`İ’
+(
+os
+.
+·th
+.
+	`još
+(
+dœ_ªn
+, "{0:0>6}.txt".
+	`fÜm©
+(
+couÁ
+)), 'a+'è
+as
+ 
+f
+:
+
+493 
+jsÚ
+.
+	`dump
+(
+w
+, 
+f
+, 
+sÜt_keys
+=
+True
+, 
+šd’t
+=3, 
+£·¿tÜs
+=(',', ': '))
+
+495 
+ş
+.
+	`§ve
+(
+os
+.
+·th
+.
+	`još
+(
+dœ_img
+, "{0:0>6}.²g".
+	$fÜm©
+(
+couÁ
+)))
+
+498 
+def
+ 
+	$š™
+(
+c
+, 
+t
+, 
+s
+):
+
+499 
+glob®
+ 
+couÁV®idFe
+, 
+Œaš_v®
+, 
+¡©s
+
+
+500 
+couÁV®idFe
+ = 
+c
+
+
+501 
+Œaš_v®
+ = 
+t
+
+
+502 
+Œaš_v®
+['train'] = []
+
+503 
+Œaš_v®
+['val'] = []
+
+504 
+Œaš_v®
+['trainval'] = []
+
+505 
+¡©s
+ = 
+s
+
+
+506 
+t
+ 
+š
+ 
+rg‘_li¡
+:
+
+507 
+¡©s
+[
+t
+] = 0
+
+509 
+__Çme__
+ == '__main__':
+
+510 
+couÁV®idFe
+ = 
+	`V®ue
+('i', 0)
+
+511 
+Œaš_v®
+ = 
+	`Mªag”
+().
+	$diù
+()
+
+512 
+¡©s
+ = 
+	`Mªag”
+().
+	$diù
+()
+
+514 
+fŞd”s_li¡
+ = 
+glob
+.
+	`glob
+(
+a
+.
+šput_dœ
+ + "/*20170510_cleaned_outputs*/**")
+
+517 
+âame
+ = 
+os
+.
+·th
+.
+	`još
+("android_data", "Annotations", "000001.txt")
+
+518 
+w™h
+ 
+	$İ’
+(
+âame
+è
+as
+ 
+f
+:
+
+519 
+d©a¡Üe
+ = 
+jsÚ
+.
+	$lßd
+(
+f
+)
+
+520 
+bb_äom
+ = 
+d©a¡Üe
+[0]['coordinates']['from']
+
+521 
+´št
+ 
+bb_äom
+, bb_from[0]
+
+523 #ü—‹ 
+d©a£t
+ 
+dœeùÜy
+
+
+524 
+dœ_li¡
+ = [
+ouutDœ
+, 
+dœ_img
+, 
+dœ_£t
+, 
+dœ_ªn
+]
+
+525 
+os
+.
+·th
+.
+	$exi¡s
+(
+ouutDœ
+):
+
+526 
+shut
+.
+	$rmŒ“
+(
+ouutDœ
+)
+
+527 
+d
+ 
+š
+ 
+dœ_li¡
+:
+
+528 
+os
+.
+	$makedœs
+(
+d
+)
+
+530 
+num_´oûs£d
+ = 0
+
+531 
+poŞ
+ = 
+	`PoŞ
+(
+´oûs£s
+=6, 
+š™Ÿliz”
+=
+š™
+, 
+š™¬gs
+=(
+couÁV®idFe
+, 
+Œaš_v®
+, 
+¡©s
+))
+
+532 #poŞ = 
+	`PoŞ
+(
+´oûs£s
+=6)
+
+533 
+r
+ 
+š
+ 
+poŞ
+.
+	$im­
+(
+´•roûss
+, 
+fŞd”s_li¡
+):
+
+534 
+num_´oûs£d
+ += 1
+
+535 
+num_´oûs£d
+%5 
+is
+ 0:
+
+536 
+´št
+ "% oà% ´oûs£d" % (
+num_´oûs£d
+, 
+	$Ën
+(
+fŞd”s_li¡
+))
+
+537 
+sys
+.
+¡dout
+.
+	$æush
+()
+
+538 
+poŞ
+.
+	$şo£
+()
+
+539 
+poŞ
+.
+	$još
+()
+
+541 
+w™h
+ 
+	`İ’
+(
+os
+.
+·th
+.
+	`još
+(
+dœ_£t
+, "Œaš.txt"), 'a+'è
+as
+ 
+f
+:
+
+542 
+idx
+ 
+š
+ 
+Œaš_v®
+["train"]:
+
+543 
+f
+.
+	`wr™e
+("%s\n" % 
+idx
+)
+
+545 
+w™h
+ 
+	`İ’
+(
+os
+.
+·th
+.
+	`još
+(
+dœ_£t
+, "v®.txt"), 'a+'è
+as
+ 
+f
+:
+
+546 
+idx
+ 
+š
+ 
+Œaš_v®
+["val"]:
+
+547 
+f
+.
+	`wr™e
+("%s\n" % 
+idx
+)
+
+549 
+w™h
+ 
+	`İ’
+(
+os
+.
+·th
+.
+	`još
+(
+dœ_£t
+, "Œašv®.txt"), 'a+'è
+as
+ 
+f
+:
+
+550 
+idx
+ 
+š
+ 
+Œaš_v®
+["trainval"]:
+
+551 
+f
+.
+	`wr™e
+("%s\n" % 
+idx
+)
+
+553 
+w™h
+ 
+	`İ’
+(
+os
+.
+·th
+.
+	`još
+(
+dœ_£t
+, "¡©s.txt"), 'a+'è
+as
+ 
+f
+:
+
+554 
+t
+ 
+š
+ 
+rg‘_li¡
+:
+
+555 
+f
+.
+	`wr™e
+("{} - {}\n".
+	`fÜm©
+(
+t
+, 
+¡©s
+[t]))
+
+	@process-clipping.py
+
+1 
+impÜt
+ 
+¬g·r£
+
+
+2 
+impÜt
+ 
+os
+
+
+3 
+impÜt
+ 
+glob
+
+
+4 
+impÜt
+ 
+¡ršg
+
+
+5 
+impÜt
+ 
+»
+
+
+6 
+impÜt
+ 
+shut
+
+
+7 
+impÜt
+ 
+´og»ssb¬
+
+
+8 
+impÜt
+ 
+jsÚ
+
+
+9 
+impÜt
+ 
+numpy
+ 
+as
+ 
+Å
+
+
+10 
+impÜt
+ 
+hashlib
+
+
+11 
+impÜt
+ 
+time
+
+
+12 
+impÜt
+ 
+™”toŞs
+
+
+14 
+äom
+ 
+PIL
+ 
+impÜt
+ 
+Image
+
+
+15 
+	gImage
+.
+	gLOAD_TRUNCATED_IMAGES
+ = 
+True
+
+
+16 
+äom
+ 
+lxml
+ 
+impÜt
+ 
+‘»e
+
+
+17 
+äom
+ 
+muÉroûssšg
+ 
+impÜt
+ 
+PoŞ
+, 
+	gV®ue
+, 
+Mªag”
+
+
+18 
+äom
+ 
+cŞËùiÚs
+ 
+impÜt
+ 
+deque
+
+
+19 
+äom
+ 
+cŞÜth›f
+ 
+impÜt
+ 
+CŞÜTh›f
+
+
+21 
+impÜt
+ 
+sys
+
+
+22 
+	gsys
+.
+	g·th
+.
+­³nd
+("/home/weijun/colory")
+
+23 
+äom
+ 
+cŞÜs
+ 
+impÜt
+ 
+CŞÜ
+
+
+27 
+	g·r£r
+ = 
+¬g·r£
+.
+	$Argum’tP¬£r
+()
+
+28 
+·r£r
+.
+	`add_¬gum’t
+("--šput_dœ", 
+»quœed
+=
+True
+, 
+h–p
+="patho folder containing‡pp…ackages")
+
+29 
+a
+ = 
+·r£r
+.
+	$·r£_¬gs
+()
+
+31 
+cwd
+ = 
+os
+.
+	$g‘cwd
+()
+
+32 
+¬chive_dœ
+ = 
+cwd
+ + "/widget_clippings"
+
+34 
+rg‘_li¡
+ = ["Button", "ImageButton", "CompoundButton", "ProgressBar", "SeekBar", "Chronometer", "View", "CheckBox", "RadioButton", "Switch", "EditText", "ToggleButton", "RatingBar", "Spinner"]
+
+37 
+def
+ 
+	$checkFeV®id™y
+(
+šputFe
+):
+
+39 
+Check
+ 
+the
+ 
+v®id™y
+ 
+of
+h
+XML
+ 
+fe
+ 
+ªd
+ 
+ignÜe
+ 
+™
+ 
+possibË
+
+
+40 
+Due
+ 
+to
+ 
+the
+ 
+unknown
+ 
+»asÚs
+,h
+cÚ‹Á
+ 
+š
+ 
+some
+ 
+XML
+ 
+fe
+ 
+is
+ 
+»³tive
+ 
+Ü
+
+
+42 
+homeSü“n_li¡
+ = ["Make yourself‡t home", "You can…ut your favorite‡pps here.", "To see‡ll your‡pps,ouchhe circle."]
+
+43 
+uÆockHomeSü“n_li¡
+ = ["Camera", "[16,600][144,728]", "Phone", "[150,1114][225,1189]", "People", "[256,1114][331,1189]", "Messaging", "[468,1114][543,1189]", "Browser", "[574,1114][649,1189]"]
+
+44 
+brow£r
+ = ["com.android.browser:id/all_btn", "[735,108][800,172]", "com.android.browser:id/taburlbar", "com.android.browser:id/urlbar_focused"]
+
+45 
+w™h
+ 
+	$İ’
+(
+šputFe
+è
+as
+ 
+f
+:
+
+46 
+cÚ‹Á
+ = 
+f
+.
+	$»ad
+()
+
+47 #™ 
+is
+ 
+the
+ 
+Ïyout
+ 
+code
+ th
+whŞe
+ 
+wšdow
+ 
+ªd
+ 
+no
+ 
+rÙ©iÚ
+
+
+48 'bounds="[0,0][800,1216]"' 
+š
+ 
+cÚ‹Á
+ 
+ªd
+ '<h›¿rchy„Ù©iÚ="1">' 
+nÙ
+ in content:
+
+49 
+nÙ
+ 
+	$®l
+(
+keywÜd
+ 
+š
+ 
+cÚ‹Á
+ keywÜd iÀ
+brow£r
+è
+ªd
+ 
+nÙ
+ 
+	$®l
+(
+keywÜd
+ 
+š
+ 
+cÚ‹Á
+ keywÜd iÀ
+homeSü“n_li¡
+è
+ªd
+ 
+nÙ
+ 
+	$®l
+(
+keywÜd
+ 
+š
+ 
+cÚ‹Á
+ keywÜd iÀ
+uÆockHomeSü“n_li¡
+):
+
+50 #™ 
+should
+ 
+nÙ
+ 
+be
+ 
+the
+ 
+hom•age
+ 
+of
+h
+phÚe
+
+
+51 
+bounds_li¡
+ = 
+»
+.
+	`fšd®l
+(
+r
+'bounds="(.+?)"', 
+cÚ‹Á
+)
+
+52 
+	`Ën
+(
+bounds_li¡
+) < 2:
+
+53  
+F®£
+
+
+54 #ià(
+	`Ën
+(
+bounds_li¡
+)è/†’(
+	`£t
+(bounds_li¡)è< 1.2: #sØ
+çr
+, 
+we
+ dØ
+nÙ
+ 
+check
+ 
+this
+ 
+İtiÚ
+
+
+55 #´šˆ
+	`Ën
+(
+‹xt_li¡
+),†’(
+	`£t
+Ñext_li¡)), 
+šputFe
+.
+	`¥l™
+("\\")[-1]
+
+56  
+True
+
+
+58  
+F®£
+
+
+60 
+def
+ 
+	$checkDu¶iÿ‹Fe
+(
+šputFe
+):
+
+61 
+w™h
+ 
+	$İ’
+(
+šputFe
+è
+as
+ 
+f
+:
+
+62 
+glob®
+ 
+hash_diù
+
+
+63 
+cÚ‹Á
+ = 
+f
+.
+	$»ad
+()
+
+64 
+cÚ‹Á
+ = 
+»
+.
+	`sub
+(
+r
+'(?!.*\/>).*', "", content)
+
+65 
+cÚ‹Á
+ = 
+»
+.
+	`sub
+(
+r
+'\s', "", content)
+
+66 
+cÚ‹Á
+ = 
+»
+.
+	`sub
+(
+r
+'cÚ‹Á-desc=".*?"', "", cÚ‹Áè#»mov
+the
+ 
+fËd
+ 
+‹xt
+
+
+67 
+cÚ‹Á
+ = 
+»
+.
+	`sub
+(
+r
+'‹xt=".*?"', "", cÚ‹Áè#»mov
+the
+ 
+‹xt
+
+
+68 
+cÚ‹Á
+ = 
+»
+.
+	`sub
+(
+r
+'bounds=".*?"', "", content)
+
+69 
+cÚ‹Á
+ = 
+»
+.
+	`sub
+(
+r
+'index=".*?"', "", content)
+
+70 
+cÚ‹Á
+ = 
+»
+.
+	`sub
+(
+r
+'NAF=".*?"', "", content)
+
+71 
+cÚ‹Á
+ = 
+»
+.
+	`sub
+(
+r
+'focused=".*?"', "", content)
+
+72 
+feHash
+ = 
+hashlib
+.
+	`sha224
+(
+cÚ‹Á
+).
+	$hexdige¡
+(è#g‘ 
+the
+ 
+hash
+ 
+dige¡
+ 
+of
+h
+fe
+
+
+73 
+feHash
+ 
+nÙ
+ 
+š
+ 
+hash_diù
+:
+
+74 
+hash_diù
+[
+feHash
+] = ""
+
+75  
+True
+
+
+77  
+F®£
+
+
+80 
+def
+ 
+	$g‘Dim’siÚs
+(
+coÜ_äom
+, 
+coÜ_to
+):
+
+81 
+dim
+ = {
+	}
+}
+
+82 
+dim
+['width'] = 
+coÜ_to
+[0] - 
+coÜ_äom
+[0]
+
+83 
+dim
+['height'] = 
+coÜ_to
+[1] - 
+coÜ_äom
+[1]
+
+84  
+dim
+
+
+86 
+def
+ 
+	$ü—‹Clpšg
+(
+·th_to_²g
+, 
+coÜ_äom
+, 
+coÜ_to
+, 
+couÁ
+):
+
+87 
+f’ame
+ = 
+os
+.
+·th
+.
+	$ba£Çme
+(
+·th_to_²g
+)
+
+88 
+im
+ = 
+Image
+.
+	$İ’
+(
+·th_to_²g
+)
+
+89 
+ş
+ = 
+im
+.
+	`üİ
+((
+coÜ_äom
+[0], coÜ_äom[1], 
+coÜ_to
+[0], coor_to[1]))
+
+90 
+ş
+.
+	`§ve
+(
+os
+.
+·th
+.
+	`još
+(
+¬chive_dœ
+, "%s-şpšgs-%s.²g" %(
+f’ame
+, 
+couÁ
+)))
+
+91 
+cŞÜ_th›f
+ = 
+	$CŞÜTh›f
+(
+·th_to_²g
+)
+
+92 #domšªt_cŞÜ = 
+cŞÜ_th›f
+.
+	`g‘_cŞÜ
+(
+qu®™y
+=1)
+
+93 
+·Ë‰e
+ = 
+cŞÜ_th›f
+.
+	$g‘_·Ë‰e
+(
+cŞÜ_couÁ
+=6)
+
+94  
+·Ë‰e
+
+
+96 
+def
+ 
+	$ü—‹Clpšgs
+(
+widg‘s_fŞd”
+, 
+m‘a_dump
+, 
+fu¹h”_»move
+):
+
+97 
+glob®
+ 
+couÁ
+
+
+99 #m‘a_dum°ğ{
+	}
+}
+
+100 #m‘a_dump[
+fŞd”_Çme
+] = {}
+
+101 
+w_ty³
+, 
+widg‘s
+ 
+š
+ 
+	gwidg‘s_fŞd”
+.
+	$™ems
+():
+
+102 #m‘a_dump[
+w_ty³
+] = {
+	}
+}
+
+103 
+widg‘
+ 
+š
+ 
+widg‘s
+:
+
+104 
+widg‘_dœ
+ = 
+os
+.
+·th
+.
+	$još
+(
+¬chive_dœ
+, 
+w_ty³
+)
+
+105 
+du¶iÿ‹
+ = 
+F®£
+
+
+106 
+im
+ = 
+Image
+.
+	`İ’
+(
+widg‘
+['src'] + ".png")
+
+107 
+Œy
+:
+
+108 
+ş
+ = 
+im
+.
+	`üİ
+((
+widg‘
+['coordinates']['from'][0], widget['coordinates']['from'][1], widget['coordinates']['from'][0]+widget['dimensions']['width'], widget['coordinates']['from'][1]+widget['dimensions']['height']))
+
+109 
+exû±
+ 
+OSE¼Ü
+ 
+as
+ 
+”r
+:
+
+110 
+´št
+ 
+widg‘
+['src']
+
+111 
+´št
+ "[-] OSE¼Ü - " + 
+	$¡r
+(
+”r
+)
+
+113 
+exû±
+ 
+IndexE¼Ü
+ 
+as
+ 
+”r
+:
+
+114 
+´št
+ 
+widg‘
+['src']
+
+115 
+´št
+ "[-] IndexE¼Ü - " + 
+	$¡r
+(
+”r
+)
+
+116 
+´št
+ "[-] " + 
+w_ty³
+ + "-" + 
+widg‘
+['src']
+
+117 
+´št
+ "[-] " + 
+	`¡r
+(
+widg‘
+['coordinates'])
+
+118 
+´št
+ "[-] " + 
+	`¡r
+(
+widg‘
+['dimensions'])
+
+120 
+exû±
+ 
+IOE¼Ü
+ 
+as
+ 
+”r
+: #imag
+fe
+ 
+is
+ 
+Œunÿ‹d
+
+
+121 
+´št
+ 
+widg‘
+['src']
+
+122 
+´št
+ "[-] IOE¼Ü - " + 
+	$¡r
+(
+”r
+)
+
+125 
+f’ame
+ = "şpšg-" + 
+	$¡r
+(
+couÁ
+.
+v®ue
+)
+
+126 
+f•©h
+ = 
+os
+.
+·th
+.
+	`još
+(
+widg‘_dœ
+, 
+f’ame
+ + ".png")
+
+127 
+nÙ
+ 
+os
+.
+·th
+.
+	$exi¡s
+(
+widg‘_dœ
+):
+
+128 
+os
+.
+	$makedœs
+(
+widg‘_dœ
+)
+
+129 
+ş
+.
+	$§ve
+(
+f•©h
+)
+
+131 
+Œy
+:
+
+132 
+cŞÜ_th›f
+ = 
+	$CŞÜTh›f
+(
+f•©h
+)
+
+133 #g‘ 
+the
+ 
+domšªt
+ 
+cŞÜ
+
+
+134 
+domšªt_cŞÜ
+ = 
+cŞÜ_th›f
+.
+	$g‘_cŞÜ
+(
+qu®™y
+=1)
+
+135 
+widg‘
+['cŞÜ'] = 
+	$g‘CŞÜ
+(
+domšªt_cŞÜ
+)
+
+136 
+exû±
+ 
+Exû±iÚ
+ 
+as
+ 
+e
+:
+
+137 
+os
+.
+	$»move
+(
+f•©h
+)
+
+140 
+nÙ
+ 
+m‘a_dump
+[
+w_ty³
+]:
+
+141 
+m‘a_dump
+[
+w_ty³
+][
+f’ame
+] = 
+widg‘
+
+
+142 
+w™h
+ 
+couÁ
+.
+	$g‘_lock
+():
+
+143 
+couÁ
+.
+v®ue
+ += 1
+
+144 #n1 = 
+fš®_¡©s
+[
+w_ty³
+]
+
+146 #fš®_¡©s.
+	`pİ
+(
+w_ty³
+, 
+NÚe
+)
+
+147 #fš®_¡©s[
+w_ty³
+] = 
+n1
+
+
+148 
+fu¹h”_»move
+[
+w_ty³
+] += 1
+
+150 
+key
+ 
+š
+ 
+m‘a_dump
+[
+w_ty³
+].
+	$keys
+():
+
+151 
+diff_scÜe
+ = 
+	`com·»Hi¡o
+(
+os
+.
+·th
+.
+	`još
+(
+widg‘_dœ
+, 
+key
+ + ".²g"), os.·th.još(widg‘_dœ, 
+f’ame
+ + ".png"))
+
+152 
+diff_scÜe
+ < 0.13:
+
+153 
+os
+.
+	`»move
+(os.
+·th
+.
+	`još
+(
+widg‘_dœ
+, 
+f’ame
+ + ".png"))
+
+154 
+du¶iÿ‹
+ = 
+True
+
+
+157 
+nÙ
+ 
+du¶iÿ‹
+:
+
+158 
+m‘a_dump
+[
+w_ty³
+][
+f’ame
+] = 
+widg‘
+
+
+159 
+w™h
+ 
+couÁ
+.
+	$g‘_lock
+():
+
+160 
+couÁ
+.
+v®ue
+ += 1
+
+161 #n2 = 
+fš®_¡©s
+[
+w_ty³
+]
+
+163 #fš®_¡©s.
+	`pİ
+(
+w_ty³
+, 
+NÚe
+)
+
+164 #fš®_¡©s[
+w_ty³
+] = 
+n2
+
+
+165 
+fu¹h”_»move
+[
+w_ty³
+] += 1
+
+167  
+fu¹h”_»move
+
+
+168 #w™h 
+	`İ’
+(
+os
+.
+·th
+.
+	`još
+(
+¬chive_dœ
+, "m‘a_dump.txt"), "a+"è
+as
+ 
+f
+:
+
+169 #jsÚ.
+	`dump
+(
+m‘a_dump
+, 
+f
+)
+
+170 #jsÚ.
+	`dump
+(
+m‘a_dump
+, 
+f
+, 
+sÜt_keys
+=
+True
+, 
+šd’t
+=3, 
+£·¿tÜs
+=(',', ': '))
+
+175 
+def
+ 
+	$»move_ov”Ïp_du¶iÿ‹s
+(
+widg‘s
+, 
+widg‘s_fŞd”
+):
+
+177 
+glob®
+ 
+¡©s
+
+
+179 
+widg‘s
+.
+	$»v”£
+()
+
+180 
+Ïyout
+ = 
+Å
+.
+	`z”os
+((801,1217), 
+dty³
+=np.)
+
+181 
+idx
+, 
+widg‘
+ 
+š
+ 
+	$’um”©e
+(
+widg‘s
+):
+
+182 
+ov”Ïp
+ = 
+F®£
+
+
+183 
+¡¬ti
+ = 
+widg‘
+['coordinates']['from'][0] + 1
+
+184 
+’di
+ = 
+widg‘
+['coordinates']['to'][0] - 1
+
+185 
+¡¬tj
+ = 
+widg‘
+['coordinates']['from'][1] + 1
+
+186 
+’dj
+ = 
+widg‘
+['coordinates']['to'][1] - 1
+
+188 
+i
+ 
+š
+ 
+	`¿nge
+(
+¡¬ti
+, 
+’di
+ + 1):
+
+189 
+j
+ 
+š
+ 
+	`¿nge
+(
+¡¬tj
+, 
+’dj
+ + 1):
+
+190 
+Ïyout
+[
+i
+][
+j
+] == 1:
+
+191 
+widg‘
+['leaf']:
+
+192 
+ov”Ïp
+ = 
+True
+
+
+193 
+Ïyout
+[
+i
+][
+j
+] = -1
+
+194 
+–if
+ 
+Ïyout
+[
+i
+][
+j
+] == -1:
+
+195 
+ov”Ïp
+ = 
+True
+
+
+196 
+–if
+ 
+Ïyout
+[
+i
+][
+j
+] == 2:
+
+197 
+widg‘
+['leaf']:
+
+198 
+ov”Ïp
+ = 
+True
+
+
+199 
+Ïyout
+[
+i
+][
+j
+] = -1
+
+201 
+widg‘
+['leaf']:
+
+202 
+Ïyout
+[
+i
+][
+j
+] = 1
+
+204 
+Ïyout
+[
+i
+][
+j
+] = 2
+
+206 #´šˆ"[*]" + 
+	`¡r
+(
+ov”Ïp
+), 
+widg‘
+['class'], widget['coordinates']
+
+207 #ià
+	`ªy
+(
+d
+ 
+š
+ 
+widg‘
+['»sourû-id'] d iÀ
+d¿w”
+è
+ªd
+ widget['coordinates']['from'][0] == 0‡nd widget['coordinates']['from'][1] == 33‡nd 373 <= widget['coordinates']['to'][0] <= 533‡nd widget['coordinates']['to'][1] == 1216:
+
+209 
+ov”Ïp
+ =ğ
+True
+:
+
+212 
+widg‘
+['Ëaf'] 
+ªd
+ widg‘['widg‘_şass'] 
+š
+ 
+rg‘_li¡
+:
+
+213 
+widg‘
+['widg‘_şass'] =ğ"V›w" 
+ªd
+ 
+	`nÙ
+(widget['clickable'] == "true"‡nd widget['focusable'] == "true"):
+
+216 
+nÙ
+ 
+widg‘s_fŞd”
+[
+widg‘
+['widget_class']]:
+
+217 #widg‘s_fŞd”.
+	`­³nd
+(
+widg‘
+)
+
+218 
+widg‘s_fŞd”
+[
+widg‘
+['widg‘_şass']].
+	$­³nd
+(
+widg‘
+)
+
+219 
+n1
+ = 
+¡©s
+[
+widg‘
+['widget_class']]
+
+220 
+n1
+[1] += 1
+
+221 #¡©s.
+	`pİ
+(
+widg‘
+['widg‘_şass'], 
+NÚe
+)
+
+222 
+¡©s
+[
+widg‘
+['widg‘_şass']] = 
+n1
+
+
+224 
+du¶iÿ‹
+ = 
+F®£
+
+
+225 
+w
+ 
+š
+ 
+widg‘s_fŞd”
+[
+widg‘
+['widget_class']]:
+
+226 
+w
+['‹xt'] =ğ
+widg‘
+['‹xt'] 
+ªd
+ w['content-desc'] == widget['content-desc']‡nd w['dimensions']['width'] == widget['dimensions']['width']‡nd w['dimensions']['height'] == widget['dimensions']['height']:
+
+227 
+du¶iÿ‹
+ = 
+True
+
+
+229 
+nÙ
+ 
+du¶iÿ‹
+:
+
+230 
+widg‘s_fŞd”
+[
+widg‘
+['widg‘_şass']].
+	$­³nd
+(
+widg‘
+)
+
+231 
+n2
+ = 
+¡©s
+[
+widg‘
+['widget_class']]
+
+232 
+n2
+[1] += 1
+
+233 #¡©s.
+	`pİ
+(
+widg‘
+['widg‘_şass'], 
+NÚe
+)
+
+234 
+¡©s
+[
+widg‘
+['widg‘_şass']] = 
+n2
+
+
+239 
+def
+ 
+	$g‘CŞÜ
+(
+rgb
+):
+
+240 
+hex
+ = "#{:02x}{:02x}{:02x}".
+	$fÜm©
+(
+rgb
+[0],„gb[1],„gb[2])
+
+241 
+cŞÜ
+ = 
+	$CŞÜ
+(
+hex
+)
+
+242  
+cŞÜ
+.
+Çme
+
+
+246 
+def
+ 
+	$g‘F¿gm’ts
+(
+fŞd”
+):
+
+247 
+äagm’ts
+ = {
+	}
+}
+
+248 
+šfe
+ 
+š
+ 
+glob
+.glob(
+fŞd”
+ + "/stoat_fsm_output/ui/*.xml"):
+
+249 
+w™h
+ 
+İ’
+(
+šfe
+, 'r', 
+’codšg
+='utf-8'è
+as
+ 
+f
+:
+
+250 
+Œ“
+ = 
+‘»e
+.
+	$·r£
+(
+šfe
+)
+
+251 
+Ëaf
+ 
+š
+ 
+Œ“
+.
+	`x·th
+('//*[not(*)]'):
+
+252 "Layout" 
+š
+ 
+Ëaf
+.
+©Œib
+["şass"] 
+ªd
+†—f.©Œib["»sourû-id"] 
+is
+ 
+nÙ
+ "":
+
+253 
+äagm’ts
+[
+Œ“
+.
+	`g‘·th
+(
+Ëaf
+.
+	`g‘·»Á
+()è+ "#" +†—f.
+©Œib
+["»sourû-id"]] = 
+šfe
+
+
+255  
+äagm’ts
+
+
+258 
+def
+ 
+	$checkF¿gm’ts
+(
+šputFe_xml
+, 
+äagm’ts
+):
+
+259 
+Œ“
+ = 
+‘»e
+.
+	$·r£
+(
+šputFe_xml
+)
+
+260 
+roÙ
+ = 
+Œ“
+.
+	$g‘roÙ
+()
+
+261 
+id’tify_äagm’ts
+ = 
+‘»e
+.
+	`XP©h
+("//*[@resource-id=$var]")
+
+262 
+id’tify_Ëaf
+ = 
+‘»e
+.
+	`XP©h
+(".//*[not(*)]")
+
+264 
+äagm’ts
+:
+
+265 
+key
+ 
+š
+ 
+äagm’ts
+:
+
+266 
+·th_to_roÙ
+ = 
+key
+.
+	`¥l™
+("#")[0]
+
+267 
+rid
+ = 
+key
+.
+	`¥l™
+("#")[1]
+
+268 
+äagm’t
+ 
+š
+ 
+	$id’tify_äagm’ts
+(
+roÙ
+, 
+v¬
+=
+rid
+):
+
+269 
+Œ“
+.
+	`g‘·th
+(
+äagm’t
+.
+	`g‘·»Á
+()è=ğ
+·th_to_roÙ
+ 
+ªd
+ f¿gm’t.
+	$g‘chd»n
+():
+
+270  
+True
+
+
+272  
+F®£
+
+
+275 
+def
+ 
+	$com·»Hi¡o
+(
+fœ¡
+, 
+£c
+):
+
+276 
+imA
+ = 
+Image
+.
+	$İ’
+(
+fœ¡
+)
+
+277 
+imB
+ = 
+Image
+.
+	$İ’
+(
+£c
+)
+
+279 #NÜm®i£ 
+the
+ 
+sÿË
+ 
+of
+ 
+images
+
+
+280 
+imA
+.
+size
+[0] > 
+imB
+.size[0]:
+
+281 
+imA
+ = imA.
+	`»size
+((
+imB
+.
+size
+[0], imA.size[1]))
+
+283 
+imB
+ = imB.
+	`»size
+((
+imA
+.
+size
+[0], imB.size[1]))
+
+285 
+imA
+.
+size
+[1] > 
+imB
+.size[1]:
+
+286 
+imA
+ = imA.
+	`»size
+((imA.
+size
+[0], 
+imB
+.size[1]))
+
+288 
+imB
+ = imB.
+	`»size
+((imB.
+size
+[0], 
+imA
+.size[1]))
+
+290 
+hA
+ = 
+imA
+.
+	$hi¡og¿m
+()
+
+291 
+hB
+ = 
+imB
+.
+	$hi¡og¿m
+()
+
+292 
+sum_hA
+ = 0.0
+
+293 
+sum_hB
+ = 0.0
+
+294 
+diff
+ = 0.0
+
+296 
+i
+ 
+š
+ 
+	`¿nge
+(
+	$Ën
+(
+hA
+)):
+
+297 #´št(
+sum_hA
+)
+
+298 
+sum_hA
+ +ğ
+hA
+[
+i
+]
+
+299 
+sum_hB
+ +ğ
+hB
+[
+i
+]
+
+300 
+diff
+ +ğ
+	`abs
+(
+hA
+[
+i
+] - 
+hB
+[i])
+
+302  
+diff
+/(2*
+	$max
+(
+sum_hA
+, 
+sum_hB
+))
+
+305 
+def
+ 
+	$´oûss
+(
+fŞd”
+):
+
+306 
+glob®
+ 
+¡©s
+
+
+307 
+widg‘s_fŞd”
+ = {
+	}
+}
+
+308 
+w
+ 
+š
+ 
+rg‘_li¡
+:
+
+309 
+widg‘s_fŞd”
+[
+w
+] = []
+
+311 
+fŞd”_Çme
+ = 
+os
+.
+·th
+.
+	$ba£Çme
+(
+fŞd”
+)
+
+312 #äagm’t ğ
+	`g‘F¿gm’ts
+(
+fŞd”
+)
+
+313 
+šfe
+ 
+š
+ 
+	`sÜ‹d
+(sÜ‹d(
+glob
+.
+	`glob
+(
+fŞd”
+ + "/¡ßt_fsm_ouut/ui/*.xml"), 
+»v”£
+=
+True
+), 
+key
+=
+Ën
+,„everse=True):
+
+314 
+widg‘s_xml
+ = []
+
+315 
+¡©us_b¬
+ = 
+F®£
+
+
+316 
+ads_bªÃr
+ = 
+F®£
+
+
+317 
+ads_y1
+ = 0
+
+318 
+ads_y2
+ = 0
+
+319 
+Çme
+, 
+ext
+ = 
+os
+.
+·th
+.
+	$¥l™ext
+(
+šfe
+)
+
+320 
+²gfe
+ = 
+šfe
+.
+	`»¶aû
+(".xml", ".png")
+
+322 
+os
+.
+·th
+.
+	$exi¡s
+(
+²gfe
+è
+ªd
+ 
+os
+.
+	`¡©
+Õngfe).
+¡_size
+ > 0‡nd 
+	$checkFeV®id™y
+(
+šfe
+è
+ªd
+ 
+	$checkDu¶iÿ‹Fe
+(
+šfe
+):
+
+323 #ià
+	`checkF¿gm’ts
+(
+šfe
+, 
+äagm’ts
+):
+
+325 #w™h 
+	`İ’
+(
+šfe
+, 'r', 
+’codšg
+='utf-8'è
+as
+ 
+f
+:
+
+326 #´šˆ
+šfe
+
+
+327 #Œ“ = 
+‘»e
+.
+	`·r£
+(
+šfe
+)
+
+328 
+ùx
+ = 
+‘»e
+.
+	`™”·r£
+(
+šfe
+, 
+ev’ts
+=('¡¬t',), 
+g
+='node')
+
+329 #™”·r£ 
+fœ¡
+ 
+round
+ 
+to
+ 
+id’tify
+ 
+´e£nû
+ 
+of
+ 
+¡©us_b¬
+, 
+ads_bªÃr
+
+
+330 
+ev’t
+, 
+–em
+ 
+š
+ 
+ùx
+:
+
+331 #check 
+ªdroid
+ 
+¡©us
+ 
+b¬
+
+
+332 
+–em
+.
+©Œib
+['bounds'] == "[0,33][800,1216]":
+
+333 
+¡©us_b¬
+ = 
+True
+
+
+335 #check 
+adv”ti£m’t
+ 
+bªÃr
+
+
+336 'Ad' 
+š
+ 
+–em
+.
+©Œib
+['resource-id']:
+
+337 
+chd
+ 
+š
+ 
+–em
+.
+	$™”chd»n
+():
+
+338 
+chd
+.
+©Œib
+['class'] == "android.widget.ViewSwitcher":
+
+339 
+ads_bªÃr
+ = 
+True
+
+
+340 
+c
+ = 
+»
+.
+	`fšd®l
+(
+r
+"(?<=\[).*?(?=\])", 
+chd
+.
+©Œib
+["bounds"])
+
+341 
+c_äom
+ = 
+	`tu¶e
+(
+	`m­
+(, 
+c
+[0].
+	`¥l™
+(",")))
+
+342 
+c_to
+ = 
+	`tu¶e
+(
+	`m­
+(, 
+c
+[1].
+	`¥l™
+(",")))
+
+343 
+ads_y1
+ = 
+c_äom
+[1]
+
+344 
+ads_y2
+ = 
+c_to
+[1]
+
+347 
+ùx
+ = 
+‘»e
+.
+	`™”·r£
+(
+šfe
+, 
+ev’ts
+=('¡¬t',), 
+g
+='node')
+
+348 
+ev’t
+, 
+–em
+ 
+š
+ 
+ùx
+:
+
+349 
+widg‘_Çme
+ = 
+–em
+.
+©Œib
+['şass'].
+	`¥l™
+('.')[-1]
+
+350 
+coÜdš©es
+ = 
+»
+.
+	`fšd®l
+(
+r
+"(?<=\[).*?(?=\])", 
+–em
+.
+©Œib
+["bounds"])
+
+351 
+	`Ën
+(
+coÜdš©es
+) != 2:
+
+354 
+coÜ_äom
+ = 
+	`tu¶e
+(
+	`m­
+(, 
+coÜdš©es
+[0].
+	`¥l™
+(",")))
+
+355 
+coÜ_to
+ = 
+	`tu¶e
+(
+	`m­
+(, 
+coÜdš©es
+[1].
+	`¥l™
+(",")))
+
+357 
+widg‘_Çme
+ =ğ"V›w" 
+ªd
+ 
+coÜ_äom
+ =ğ(0,33èªd 
+coÜ_to
+ == (800,1216):
+
+360 
+¡©us_b¬
+ 
+	`ªd
+ (
+coÜ_äom
+[1] < 33 
+Ü
+ 
+coÜ_to
+[1] < 33):
+
+363 
+ads_bªÃr
+ 
+	`ªd
+ ((
+coÜ_äom
+[1] >ğ
+ads_y1
+ 
+ªd
+ coÜ_äom[1] <ğ
+ads_y2
+è
+	`Ü
+ (
+coÜ_to
+[1] >=‡ds_y1‡nd coor_to[1] <=‡ds_y2)) :
+
+366 
+	`nÙ
+ (
+coÜ_äom
+[0] > 800 
+Ü
+ coÜ_äom[0] < 0 o¸
+coÜ_to
+[0] > 800 or coor_to[0] < 0 or coor_from[1] > 1215 or coor_from[1] < 0 or coor_to[1] > 1215 or coor_to[1] < 0):
+
+367 #´šˆ"[+]" + 
+–em
+.
+©Œib
+['resource-id'],ƒlem.attrib['class']
+
+368 
+m‘a_d©a
+ = {
+	}
+}
+
+369 
+m‘a_d©a
+['widg‘_şass'] = 
+widg‘_Çme
+
+
+370 
+m‘a_d©a
+['coÜdš©es'] = {'äom': 
+coÜ_äom
+, 'to': 
+coÜ_to
+}
+
+371 
+m‘a_d©a
+['Ëaf'] = 
+F®£
+
+
+372 
+Ën
+(
+–em
+.
+g‘chd»n
+()è=ğ0: #id’tify 
+Ëaf
+ 
+node
+
+
+373 
+m‘a_d©a
+['Ëaf'] = 
+True
+
+
+374 
+m‘a_d©a
+['dim’siÚs'] = 
+	$g‘Dim’siÚs
+(
+coÜ_äom
+, 
+coÜ_to
+)
+
+375 
+m‘a_d©a
+['dim’siÚs']['width'] =ğ0 
+Ü
+ meta_data['dimensions']['height'] == 0:
+
+378 #‹xˆğ
+»
+.
+	`fšd®l
+(
+r
+'(?<ñext=\").*?(?=\")', 
+lše
+)
+
+379 
+m‘a_d©a
+['‹xt'] = 
+–em
+.
+©Œib
+['text']
+
+380 
+m‘a_d©a
+['şickabË'] = 
+–em
+.
+©Œib
+['clickable']
+
+381 
+m‘a_d©a
+['focu§bË'] = 
+–em
+.
+©Œib
+['focusable']
+
+382 #desøğ
+»
+.
+	`fšd®l
+(
+r
+'(?<=cÚ‹Á-desc=\").*?(?=\")', 
+lše
+)
+
+383 
+m‘a_d©a
+["cÚ‹Á-desc"] = 
+–em
+.
+©Œib
+['content-desc']
+
+384 #m‘a_d©a['XML'] = 
+šfe
+
+
+385 #m‘a_d©a['PNG'] = 
+²gfe
+
+
+386 
+m‘a_d©a
+['¤c'] = 
+Çme
+
+
+387 
+widg‘_Çme
+ 
+š
+ 
+rg‘_li¡
+:
+
+388 
+num
+ = 
+¡©s
+[
+widg‘_Çme
+]
+
+389 
+num
+[0] += 1
+
+390 #¡©s.
+	`pİ
+(
+widg‘_Çme
+, 
+NÚe
+)
+
+391 
+¡©s
+[
+widg‘_Çme
+] = 
+num
+
+
+393 
+widg‘s_xml
+.
+	$­³nd
+(
+m‘a_d©a
+)
+
+395 
+	$»move_ov”Ïp_du¶iÿ‹s
+(
+widg‘s_xml
+, 
+widg‘s_fŞd”
+)
+
+397  
+widg‘s_fŞd”
+
+
+398 #ü—‹Clpšgs(
+widg‘s_fŞd”
+, 
+fŞd”_Çme
+)
+
+402 
+w™h
+ 
+	$İ’
+(
+šfe
+è
+as
+ 
+f
+:
+
+403 
+lše
+ 
+š
+ 
+f
+:
+
+404 
+lše
+ =†še.
+	$¡r
+()
+
+405 "[0,33][800,1216]" 
+š
+ 
+lše
+: #check 
+Android
+ 
+¡©us
+ 
+b¬
+
+
+406 
+¡©us_b¬
+ = 
+True
+
+
+408 
+lše
+.
+	`¡¬tsw™h
+("<nod"è
+ªd
+†še.
+	`’dsw™h
+("/>"):
+
+409 
+şass_li¡
+ = 
+»
+.
+	`fšd®l
+(
+r
+'(?<=şass=\").*?(?=\")', 
+lše
+)
+
+410 
+widg‘_Çme
+ = 
+şass_li¡
+[0].
+	`¥l™
+('.')[-1]
+
+411 #ià
+widg‘_Çme
+ == "Button":
+
+412 
+coÜdš©es
+ = 
+»
+.
+	`fšd®l
+(
+r
+"(?<=\[).*?(?=\])", 
+lše
+)
+
+413 
+	`Ën
+(
+coÜdš©es
+) > 2:
+
+415 
+Œy
+:
+
+416 
+coÜ_äom
+ = 
+	`tu¶e
+(
+	`m­
+(, 
+coÜdš©es
+[0].
+	`¥l™
+(",")))
+
+417 
+coÜ_to
+ = 
+	`tu¶e
+(
+	`m­
+(, 
+coÜdš©es
+[1].
+	`¥l™
+(",")))
+
+418 
+exû±
+ 
+V®ueE¼Ü
+:
+
+421 
+widg‘_Çme
+ =ğ"V›w" 
+ªd
+ 
+coÜ_äom
+ =ğ(0,33èªd 
+coÜ_to
+ == (800,1216):
+
+424 
+¡©us_b¬
+ 
+	`ªd
+ (
+coÜ_äom
+[1] < 34 
+Ü
+ 
+coÜ_to
+[1] < 34):
+
+427 
+	`nÙ
+ (
+coÜ_äom
+[0] > 800 
+Ü
+ coÜ_äom[0] < 0 o¸
+coÜ_to
+[0] > 800 or coor_to[0] < 0 or coor_from[1] > 1216 or coor_from[1] < 0 or coor_to[1] > 1216 or coor_to[1] < 0):
+
+428 
+m‘a_d©a
+ = {
+	}
+}
+
+429 
+m‘a_d©a
+['dim’siÚs'] = 
+	$g‘Dim’siÚs
+(
+coÜ_äom
+, 
+coÜ_to
+)
+
+430 
+m‘a_d©a
+['dim’siÚs']['width'] =ğ0 
+Ü
+ meta_data['dimensions']['height'] == 0:
+
+432 
+m‘a_d©a
+['şass'] = 
+widg‘_Çme
+
+
+433 
+‹xt
+ = 
+»
+.
+	`fšd®l
+(
+r
+'(?<ñext=\").*?(?=\")', 
+lše
+)
+
+434 
+m‘a_d©a
+['‹xt'] = 
+‹xt
+
+
+435 
+desc
+ = 
+»
+.
+	`fšd®l
+(
+r
+'(?<=cÚ‹Á-desc=\").*?(?=\")', 
+lše
+)
+
+436 
+m‘a_d©a
+["cÚ‹Á-desc"] = 
+desc
+
+
+437 
+m‘a_d©a
+['XML'] = 
+šfe
+
+
+438 
+m‘a_d©a
+['PNG'] = 
+²gfe
+
+
+439 
+m‘a_d©a
+['coÜdš©es'] = {'äom': 
+coÜ_äom
+, 'to': 
+coÜ_to
+}
+
+440 
+widg‘s_xml
+.
+	$­³nd
+(
+m‘a_d©a
+)
+
+443 
+	$»move_ov”Ïp_du¶iÿ‹s
+(
+widg‘s_xml
+, 
+widg‘s_fŞd”
+)
+
+445 
+	`ü—‹Clpšgs
+(
+widg‘s_fŞd”
+)
+
+449 
+def
+ 
+	$š™
+(
+c
+, 
+h
+, 
+s
+):
+
+450 
+glob®
+ 
+couÁ
+
+
+451 
+glob®
+ 
+hash_diù
+
+
+452 
+glob®
+ 
+¡©s
+
+
+453 
+couÁ
+ = 
+c
+
+
+454 
+hash_diù
+ = 
+h
+
+
+455 
+¡©s
+ = 
+s
+
+
+456 
+t
+ 
+š
+ 
+rg‘_li¡
+:
+
+457 
+¡©s
+[
+t
+] = [0] * 2
+
+460 
+__Çme__
+ == '__main__':
+
+462 
+os
+.
+·th
+.
+	$exi¡s
+(
+¬chive_dœ
+):
+
+463 
+shut
+.
+	$rmŒ“
+(
+¬chive_dœ
+)
+
+464 
+os
+.
+	$makedœs
+(
+¬chive_dœ
+)
+
+466 
+m‘a_dump
+ = {
+	}
+}
+
+467 
+w
+ 
+š
+ 
+rg‘_li¡
+:
+
+468 
+m‘a_dump
+[
+w
+] = {}
+
+470 
+couÁ
+ = 
+V®ue
+('i', 1)
+
+471 
+	ghash_diù
+ = 
+Mªag”
+().
+	$diù
+()
+
+472 
+¡©s
+ = 
+	`Mªag”
+().
+	$diù
+()
+
+474 #fŞd” ğ
+glob
+.
+	`glob
+(
+a
+.
+šput_dœ
+ + "/**")
+
+475 
+fŞd”s
+ = 
+glob
+.
+	`glob
+(
+a
+.
+šput_dœ
+ + "/*20170510_cleaned*/**")
+
+476 
+¡¬t_time
+ = 
+time
+.
+	$time
+()
+
+478 
+poŞ
+ = 
+	`PoŞ
+(
+´oûs£s
+=8, 
+š™Ÿliz”
+=
+š™
+, 
+š™¬gs
+=(
+couÁ
+, 
+hash_diù
+, 
+¡©s
+,))
+
+480 
+num_´oûs£d
+ = 0
+
+481 
+fu¹h”_»move
+ = {
+	}
+}
+
+482 
+t
+ 
+š
+ 
+rg‘_li¡
+:
+
+483 
+fu¹h”_»move
+[
+t
+] = 0
+
+484 
+w
+ 
+š
+ 
+poŞ
+.
+	$im­
+(
+´oûss
+, 
+fŞd”s
+):
+
+485 
+fu¹h”_»move
+ = 
+	$ü—‹Clpšgs
+(
+w
+, 
+m‘a_dump
+, 
+fu¹h”_»move
+)
+
+486 
+num_´oûs£d
+ += 1
+
+488 
+num_´oûs£d
+%5 
+is
+ 0:
+
+489 
+´št
+ "% oà% ´oûs£d" % (
+num_´oûs£d
+, 
+	$Ën
+(
+fŞd”s
+))
+
+491 
+poŞ
+.
+	$şo£
+()
+
+492 
+poŞ
+.
+	$još
+()
+
+494 
+m‘a_dump_combšed
+ = {
+	}
+}
+
+495 
+widg‘
+ 
+š
+ 
+m‘a_dump
+:
+
+496 
+’Œy
+ 
+š
+ 
+m‘a_dump
+[
+widg‘
+]:
+
+497 
+m‘a_dump_combšed
+[
+’Œy
+] = 
+m‘a_dump
+[
+widg‘
+][entry]
+
+499 
+w™h
+ 
+İ’
+(
+os
+.
+·th
+.
+još
+(
+¬chive_dœ
+, "m‘a_dump.txt"), "a+"è
+as
+ 
+	gf
+:
+
+500 
+jsÚ
+.
+dump
+(
+m‘a_dump_combšed
+, 
+f
+, 
+sÜt_keys
+=
+True
+, 
+šd’t
+=3, 
+£·¿tÜs
+=(',', ': '))
+
+502 
+w™h
+ 
+İ’
+(
+os
+.
+·th
+.
+još
+(
+¬chive_dœ
+, "¡©i¡ics.txt"), "a+"è
+as
+ 
+	gf
+:
+
+503 
+‹mp
+ = 
+	$diù
+(
+¡©s
+)
+
+504 
+k
+, 
+v
+ 
+š
+ 
+‹mp
+.
+	$™”™ems
+():
+
+505 
+‹mp
+[
+k
+] +ğ(
+fu¹h”_»move
+[k],)
+
+506 
+š™Ÿl
+ = 0.0
+
+507 
+fu¹h”
+ = 0.0
+
+508 
+v
+[0] != 0:
+
+509 
+š™Ÿl
+ = (
+v
+[0] - v[1]) / v[0]
+
+510 
+fu¹h”
+ = (
+v
+[1] - v[2]) / v[0]
+
+512 
+f
+.
+	`wr™e
+(
+
+513 "{} {} {:.2%} {:.2%}\n".
+	`fÜm©
+(
+
+514 
+k
+,
+
+515 
+v
+,
+
+516 
+š™Ÿl
+,
+
+517 
+fu¹h”
+
+
+524 
+fŞd”
+ 
+š
+ 
+os
+.
+	`li¡dœ
+("./widget_clippings"):
+
+525 
+fes
+ = 
+glob
+.
+	`glob
+("widg‘_şpšgs/" + 
+fŞd”
+ + "/*.png")
+
+526 
+f1
+, 
+f2
+ 
+š
+ 
+™”toŞs
+.
+	$combš©iÚs
+(
+fes
+, 2):
+
+527 
+Œy
+:
+
+528 
+	`com·»Hi¡o
+(
+f1
+, 
+f2
+) < 0.07:
+
+529 
+os
+.
+	$»move
+(
+f2
+)
+
+530 
+exû±
+ 
+Exû±iÚ
+ 
+as
+ 
+e
+:
+
+536 
+fŞd”
+ 
+š
+ 
+os
+.
+	`li¡dœ
+("./widget_clippings"):
+
+537 
+fŞd”
+ == "meta_dump.txt":
+
+540 
+fes
+ = 
+	`deque
+(
+glob
+.
+	`glob
+("widg‘_şpšgs/" + 
+fŞd”
+ + "/*.png"))
+
+541 
+f1
+ = 
+fes
+[0]
+
+542 
+fes
+.
+	$pİËá
+()
+
+543 
+f
+ 
+š
+ 
+fes
+:
+
+544 
+	`com·»Hi¡o
+(
+f1
+, 
+f
+) < 0.97:
+
+545 
+os
+.
+	`»move
+(
+f
+)
+
+548 
+–­£d_time
+ = 
+time
+.
+	`time
+(è- 
+¡¬t_time
+
+
+549 
+´št
+ "[+]EÏp£dime: " + 
+	`¡r
+(
+–­£d_time
+)
+
+	@process-screenshots.py
+
+1 
+impÜt
+ 
+¬g·r£
+
+
+2 
+impÜt
+ 
+os
+
+
+3 
+impÜt
+ 
+glob
+
+
+4 
+impÜt
+ 
+jsÚ
+
+
+5 
+impÜt
+ 
+shut
+
+
+7 
+äom
+ 
+tqdm
+ 
+impÜt
+ 
+	gtqdm
+
+
+10 #'
+R©šgB¬
+', '
+SpšÃr
+', '
+ToggËBu‰Ú
+', '
+CheckBox
+', '
+CompoundBu‰Ú
+', \
+#'
+ImageBu‰Ú
+', '
+RadioBu‰Ú
+', '
+S“kB¬
+', '
+Sw™ch
+', '
+V›w
+']
+
+13 
+DIR
+ = '/data_raid5/weijun/UIscreenshots'
+
+14 
+SUBPATHS
+ = ['top_10000_google_play_20170510_cleaned', 'top_10000_google_play_20170510_cleaned_outputs_verbose_xml']
+
+16 
+	g·r£r
+ = 
+¬g·r£
+.
+	$Argum’tP¬£r
+()
+
+17 
+·r£r
+.
+	`add_¬gum’t
+("--šput_dœ", 
+»quœed
+=
+True
+, 
+h–p
+="patho folder containing widget clippings")
+
+18 
+a
+ = 
+·r£r
+.
+	$·r£_¬gs
+()
+
+20 
+def
+ 
+	$´oûss
+():
+
+21 
+²g_fes
+ = {
+	}
+}
+
+23 
+w™h
+ 
+İ’
+(
+a
+.
+šput_dœ
+ + '/m‘a_dump.txt'è
+as
+ 
+fh
+:
+
+24 
+m‘a_dump
+ = 
+jsÚ
+.
+	$lßd
+(
+fh
+)
+
+26 
+k
+ 
+š
+ 
+m‘a_dump
+:
+
+27 
+¤c
+ = 
+m‘a_dump
+[
+k
+]['src']
+
+28 
+¤c
+ 
+nÙ
+ 
+š
+ 
+²g_fes
+:
+
+29 
+²g_fes
+[
+¤c
+] = ""
+
+31 
+f
+ 
+š
+ 
+	`tqdm
+(
+²g_fes
+, 
+tÙ®
+=
+	$Ën
+(
+²g_fes
+)):
+
+32 
+pkg
+ = 
+f
+.
+	`¥l™
+('/')
+
+33 
+d¡_·th
+ = 
+DIR
++'/'+
+pkg
+[3]+'/'+pkg[4]
+
+34 
+nÙ
+ 
+os
+.
+·th
+.
+	$exi¡s
+(
+d¡_·th
+):
+
+35 
+os
+.
+	$makedœs
+(
+d¡_·th
+)
+
+36 
+Œy
+:
+
+37 
+shut
+.
+	`cİy2
+(
+f
++'.²g', 
+d¡_·th
+)
+
+38 
+exû±
+ 
+IOE¼Ü
+:
+
+42 
+__Çme__
+ == '__main__':
+
+44 
+os
+.
+·th
+.
+	$exi¡s
+(
+DIR
+):
+
+45 
+shut
+.
+	$rmŒ“
+(
+DIR
+)
+
+46 
+os
+.
+	$makedœs
+(
+DIR
+)
+
+48 
+sub
+ 
+š
+ 
+SUBPATHS
+:
+
+49 
+å©h
+ = 
+os
+.
+·th
+.
+	$još
+(
+DIR
+, 
+sub
+)
+
+50 
+os
+.
+	$makedœs
+(
+å©h
+)
+
+52 
+	`´oûss
+()
+
+	@
+1
+.
+0
+4
+101
+google-play-screenshot-scraper.py
+preprocess-rcnn-leaf.py
+process-clipping.py
+process-screenshots.py

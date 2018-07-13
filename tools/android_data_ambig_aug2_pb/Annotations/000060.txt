@@ -1,0 +1,420 @@
+[
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            405,
+            68
+         ],
+         "to": [
+            795,
+            118
+         ]
+      },
+      "dimensions": {
+         "height": 50,
+         "width": 390
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            405,
+            123
+         ],
+         "to": [
+            795,
+            173
+         ]
+      },
+      "dimensions": {
+         "height": 50,
+         "width": 390
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "4",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            405,
+            178
+         ],
+         "to": [
+            795,
+            228
+         ]
+      },
+      "dimensions": {
+         "height": 50,
+         "width": 390
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            5,
+            248
+         ],
+         "to": [
+            395,
+            318
+         ]
+      },
+      "dimensions": {
+         "height": 70,
+         "width": 390
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "Calculate",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            5,
+            333
+         ],
+         "to": [
+            135,
+            396
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "1",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            135,
+            333
+         ],
+         "to": [
+            265,
+            396
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "2",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            265,
+            333
+         ],
+         "to": [
+            395,
+            396
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "3",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            5,
+            396
+         ],
+         "to": [
+            135,
+            459
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "4",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            135,
+            396
+         ],
+         "to": [
+            265,
+            459
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "5",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            265,
+            396
+         ],
+         "to": [
+            395,
+            459
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "6",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            405,
+            248
+         ],
+         "to": [
+            795,
+            318
+         ]
+      },
+      "dimensions": {
+         "height": 70,
+         "width": 390
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "Exit",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            405,
+            333
+         ],
+         "to": [
+            535,
+            396
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "7",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            535,
+            333
+         ],
+         "to": [
+            665,
+            396
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "8",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            665,
+            333
+         ],
+         "to": [
+            795,
+            396
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "9",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            405,
+            396
+         ],
+         "to": [
+            535,
+            459
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "0",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            535,
+            396
+         ],
+         "to": [
+            665,
+            459
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "-",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            665,
+            396
+         ],
+         "to": [
+            795,
+            459
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": ".",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            405,
+            459
+         ],
+         "to": [
+            535,
+            522
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 130
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "/",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            535,
+            459
+         ],
+         "to": [
+            795,
+            522
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 260
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_1691",
+      "text": "del",
+      "widget_class": "Button"
+   }
+]

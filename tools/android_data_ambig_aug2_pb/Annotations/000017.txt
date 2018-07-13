@@ -1,0 +1,156 @@
+[
+   {
+      "clickable": "true",
+      "content-desc": "Share",
+      "coordinates": {
+         "from": [
+            463.5944700460829,
+            178.00548947849956
+         ],
+         "to": [
+            541.9354838709677,
+            261.4455626715462
+         ]
+      },
+      "dimensions": {
+         "height": 83.44007319304666,
+         "width": 78.34101382488478
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.TurkTranslate_164-output/stoat_fsm_output/ui/S_987",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Voice Input",
+      "coordinates": {
+         "from": [
+            541.9354838709677,
+            178.00548947849956
+         ],
+         "to": [
+            620.2764976958525,
+            261.4455626715462
+         ]
+      },
+      "dimensions": {
+         "height": 83.44007319304666,
+         "width": 78.34101382488484
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.TurkTranslate_164-output/stoat_fsm_output/ui/S_987",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Pro Version",
+      "coordinates": {
+         "from": [
+            620.2764976958525,
+            178.00548947849956
+         ],
+         "to": [
+            698.6175115207374,
+            261.4455626715462
+         ]
+      },
+      "dimensions": {
+         "height": 83.44007319304666,
+         "width": 78.34101382488484
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.TurkTranslate_164-output/stoat_fsm_output/ui/S_987",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            0,
+            308.1720036596523
+         ],
+         "to": [
+            698.6175115207374,
+            767.6486733760293
+         ]
+      },
+      "dimensions": {
+         "height": 459.47666971637693,
+         "width": 698.6175115207374
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.TurkTranslate_164-output/stoat_fsm_output/ui/S_987",
+      "text": "testt",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            0,
+            819.9377859103384
+         ],
+         "to": [
+            698.6175115207374,
+            1216
+         ]
+      },
+      "dimensions": {
+         "height": 396.06221408966155,
+         "width": 698.6175115207374
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.TurkTranslate_164-output/stoat_fsm_output/ui/S_987",
+      "text": "testt",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            5,
+            1086
+         ],
+         "to": [
+            395,
+            1156
+         ]
+      },
+      "dimensions": {
+         "height": 0,
+         "width": 325.34562211981563
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.TurkTranslate_164-output/stoat_fsm_output/ui/S_987",
+      "text": "To English",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            405,
+            1086
+         ],
+         "to": [
+            795,
+            1156
+         ]
+      },
+      "dimensions": {
+         "height": 0,
+         "width": 359.4470046082949
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.TurkTranslate_164-output/stoat_fsm_output/ui/S_987",
+      "text": "To Turkish",
+      "widget_class": "Button"
+   }
+]

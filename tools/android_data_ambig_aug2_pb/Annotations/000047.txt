@@ -1,0 +1,134 @@
+[
+   {
+      "clickable": "true",
+      "content-desc": "Share",
+      "coordinates": {
+         "from": [
+            586.5102639296188,
+            0
+         ],
+         "to": [
+            652.9814271749756,
+            16.681588447653432
+         ]
+      },
+      "dimensions": {
+         "height": 16.681588447653432,
+         "width": 66.47116324535682
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.IndoArabTranslate_49-output/stoat_fsm_output/ui/S_987",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Voice Input",
+      "coordinates": {
+         "from": [
+            652.9814271749756,
+            0
+         ],
+         "to": [
+            719.4525904203323,
+            16.681588447653432
+         ]
+      },
+      "dimensions": {
+         "height": 16.681588447653432,
+         "width": 66.4711632453567
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.IndoArabTranslate_49-output/stoat_fsm_output/ui/S_987",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            93.841642228739,
+            53.55667870036101
+         ],
+         "to": [
+            719.4525904203323,
+            416.16173285198556
+         ]
+      },
+      "dimensions": {
+         "height": 362.60505415162453,
+         "width": 625.6109481915933
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.IndoArabTranslate_49-output/stoat_fsm_output/ui/S_987",
+      "text": "12stt",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            93.841642228739,
+            457.42671480144406
+         ],
+         "to": [
+            719.4525904203323,
+            820.0317689530686
+         ]
+      },
+      "dimensions": {
+         "height": 362.6050541516246,
+         "width": 625.6109481915933
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.IndoArabTranslate_49-output/stoat_fsm_output/ui/S_987",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            97.75171065493646,
+            881.4902527075812
+         ],
+         "to": [
+            402.73704789833823,
+            938.5588447653429
+         ]
+      },
+      "dimensions": {
+         "height": 57.068592057761634,
+         "width": 304.9853372434018
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.IndoArabTranslate_49-output/stoat_fsm_output/ui/S_987",
+      "text": "Arabic",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            410.55718475073314,
+            881.4902527075812
+         ],
+         "to": [
+            715.5425219941349,
+            938.5588447653429
+         ]
+      },
+      "dimensions": {
+         "height": 57.068592057761634,
+         "width": 304.9853372434017
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.IndoArabTranslate_49-output/stoat_fsm_output/ui/S_987",
+      "text": "Indonesian",
+      "widget_class": "Button"
+   }
+]

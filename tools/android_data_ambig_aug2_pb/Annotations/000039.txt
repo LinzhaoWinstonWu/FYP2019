@@ -1,0 +1,860 @@
+[
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            0,
+            50
+         ],
+         "to": [
+            800,
+            250
+         ]
+      },
+      "dimensions": {
+         "height": 200,
+         "width": 800
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "Error",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            3,
+            292
+         ],
+         "to": [
+            158,
+            383
+         ]
+      },
+      "dimensions": {
+         "height": 91,
+         "width": 155
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "SHIFT",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            161,
+            292
+         ],
+         "to": [
+            292,
+            383
+         ]
+      },
+      "dimensions": {
+         "height": 91,
+         "width": 131
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "RAD",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            295,
+            292
+         ],
+         "to": [
+            421,
+            383
+         ]
+      },
+      "dimensions": {
+         "height": 91,
+         "width": 126
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "FSE",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            424,
+            292
+         ],
+         "to": [
+            544,
+            383
+         ]
+      },
+      "dimensions": {
+         "height": 91,
+         "width": 120
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "MR",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            547,
+            292
+         ],
+         "to": [
+            667,
+            383
+         ]
+      },
+      "dimensions": {
+         "height": 91,
+         "width": 120
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "MS",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            670,
+            292
+         ],
+         "to": [
+            794,
+            383
+         ]
+      },
+      "dimensions": {
+         "height": 91,
+         "width": 124
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "M+",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            3,
+            421
+         ],
+         "to": [
+            158,
+            512
+         ]
+      },
+      "dimensions": {
+         "height": 91,
+         "width": 155
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "hyp",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            161,
+            421
+         ],
+         "to": [
+            292,
+            512
+         ]
+      },
+      "dimensions": {
+         "height": 91,
+         "width": 131
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "sin",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            295,
+            421
+         ],
+         "to": [
+            421,
+            512
+         ]
+      },
+      "dimensions": {
+         "height": 91,
+         "width": 126
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "cos",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            424,
+            421
+         ],
+         "to": [
+            544,
+            512
+         ]
+      },
+      "dimensions": {
+         "height": 91,
+         "width": 120
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "tan",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            547,
+            421
+         ],
+         "to": [
+            667,
+            512
+         ]
+      },
+      "dimensions": {
+         "height": 91,
+         "width": 120
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "ln",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            670,
+            421
+         ],
+         "to": [
+            794,
+            512
+         ]
+      },
+      "dimensions": {
+         "height": 91,
+         "width": 124
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "Log",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            3,
+            550
+         ],
+         "to": [
+            158,
+            654
+         ]
+      },
+      "dimensions": {
+         "height": 104,
+         "width": 155
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "Yx",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            161,
+            550
+         ],
+         "to": [
+            292,
+            654
+         ]
+      },
+      "dimensions": {
+         "height": 104,
+         "width": 131
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "\u221a",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            295,
+            550
+         ],
+         "to": [
+            421,
+            654
+         ]
+      },
+      "dimensions": {
+         "height": 104,
+         "width": 126
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "x2",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            424,
+            550
+         ],
+         "to": [
+            544,
+            654
+         ]
+      },
+      "dimensions": {
+         "height": 104,
+         "width": 120
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "%",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            547,
+            550
+         ],
+         "to": [
+            667,
+            654
+         ]
+      },
+      "dimensions": {
+         "height": 104,
+         "width": 120
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "(",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            670,
+            550
+         ],
+         "to": [
+            794,
+            654
+         ]
+      },
+      "dimensions": {
+         "height": 104,
+         "width": 124
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": ")",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            3,
+            668
+         ],
+         "to": [
+            159,
+            779
+         ]
+      },
+      "dimensions": {
+         "height": 111,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            162,
+            668
+         ],
+         "to": [
+            318,
+            779
+         ]
+      },
+      "dimensions": {
+         "height": 111,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            321,
+            668
+         ],
+         "to": [
+            477,
+            779
+         ]
+      },
+      "dimensions": {
+         "height": 111,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            480,
+            668
+         ],
+         "to": [
+            636,
+            779
+         ]
+      },
+      "dimensions": {
+         "height": 111,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            639,
+            668
+         ],
+         "to": [
+            794,
+            779
+         ]
+      },
+      "dimensions": {
+         "height": 111,
+         "width": 155
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            3,
+            812
+         ],
+         "to": [
+            159,
+            923
+         ]
+      },
+      "dimensions": {
+         "height": 111,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            162,
+            812
+         ],
+         "to": [
+            318,
+            923
+         ]
+      },
+      "dimensions": {
+         "height": 111,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            321,
+            812
+         ],
+         "to": [
+            477,
+            923
+         ]
+      },
+      "dimensions": {
+         "height": 111,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            480,
+            812
+         ],
+         "to": [
+            636,
+            923
+         ]
+      },
+      "dimensions": {
+         "height": 111,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            639,
+            812
+         ],
+         "to": [
+            794,
+            923
+         ]
+      },
+      "dimensions": {
+         "height": 111,
+         "width": 155
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            3,
+            956
+         ],
+         "to": [
+            159,
+            1066
+         ]
+      },
+      "dimensions": {
+         "height": 110,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            162,
+            956
+         ],
+         "to": [
+            318,
+            1066
+         ]
+      },
+      "dimensions": {
+         "height": 110,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            321,
+            956
+         ],
+         "to": [
+            477,
+            1066
+         ]
+      },
+      "dimensions": {
+         "height": 110,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            480,
+            956
+         ],
+         "to": [
+            636,
+            1066
+         ]
+      },
+      "dimensions": {
+         "height": 110,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            639,
+            956
+         ],
+         "to": [
+            794,
+            1066
+         ]
+      },
+      "dimensions": {
+         "height": 110,
+         "width": 155
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            3,
+            1099
+         ],
+         "to": [
+            159,
+            1208
+         ]
+      },
+      "dimensions": {
+         "height": 109,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            162,
+            1099
+         ],
+         "to": [
+            318,
+            1208
+         ]
+      },
+      "dimensions": {
+         "height": 109,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            321,
+            1099
+         ],
+         "to": [
+            477,
+            1208
+         ]
+      },
+      "dimensions": {
+         "height": 109,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            480,
+            1099
+         ],
+         "to": [
+            636,
+            1208
+         ]
+      },
+      "dimensions": {
+         "height": 109,
+         "width": 156
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            639,
+            1099
+         ],
+         "to": [
+            794,
+            1208
+         ]
+      },
+      "dimensions": {
+         "height": 109,
+         "width": 155
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_534",
+      "text": "",
+      "widget_class": "Button"
+   }
+]

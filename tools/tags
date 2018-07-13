@@ -1,0 +1,82 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DIR	process-screenshots.py	/^DIR = '\/data_raid5\/weijun\/UIscreenshots'$/;"	v
+OUTPUT_DIR	google-play-screenshot-scraper.py	/^        OUTPUT_DIR = osp.join(a.output_dir, OUTPUT_DIR)$/;"	v
+OUTPUT_DIR	google-play-screenshot-scraper.py	/^OUTPUT_DIR = "play_store_screenshots"$/;"	v
+SUBPATHS	process-screenshots.py	/^SUBPATHS = ['top_10000_google_play_20170510_cleaned', 'top_10000_google_play_20170510_cleaned_outputs_verbose_xml']$/;"	v
+a	google-play-screenshot-scraper.py	/^a = parser.parse_args()$/;"	v
+a	preprocess-rcnn-leaf.py	/^a = parser.parse_args()$/;"	v
+a	process-clipping.py	/^a = parser.parse_args()$/;"	v
+a	process-screenshots.py	/^a = parser.parse_args()$/;"	v
+archive_dir	process-clipping.py	/^archive_dir = cwd + "\/widget_clippings"$/;"	v
+augment	preprocess-rcnn-leaf.py	/^def augment(img, anns):$/;"	f
+checkDuplicateFile	process-clipping.py	/^def checkDuplicateFile(inputFile):$/;"	f
+checkFileValidity	preprocess-rcnn-leaf.py	/^def checkFileValidity(inputFile):$/;"	f
+checkFileValidity	process-clipping.py	/^def checkFileValidity(inputFile):$/;"	f
+checkFragments	process-clipping.py	/^def checkFragments(inputFile_xml, fragments):$/;"	f
+compareHisto	google-play-screenshot-scraper.py	/^def compareHisto(first, sec):$/;"	f
+compareHisto	preprocess-rcnn-leaf.py	/^def compareHisto(first, sec):$/;"	f
+compareHisto	process-clipping.py	/^def compareHisto(first, sec):$/;"	f
+count	google-play-screenshot-scraper.py	/^    count = Value('i', 0)$/;"	v
+count	process-clipping.py	/^	count = Value('i', 1)$/;"	v
+countValidFile	preprocess-rcnn-leaf.py	/^    countValidFile = Value('i', 0)$/;"	v
+createClipping	process-clipping.py	/^def createClipping(path_to_png, coor_from, coor_to, count):$/;"	f
+createClippings	process-clipping.py	/^def createClippings(widgets_folder, meta_dump, further_remove):$/;"	f
+cwd	process-clipping.py	/^cwd = os.getcwd()$/;"	v
+dir_ann	preprocess-rcnn-leaf.py	/^dir_ann = os.path.join(outputDir, "Annotations")$/;"	v
+dir_img	preprocess-rcnn-leaf.py	/^dir_img = os.path.join(outputDir, "PNGImages")$/;"	v
+dir_list	preprocess-rcnn-leaf.py	/^    dir_list = [outputDir, dir_img, dir_set, dir_ann]$/;"	v
+dir_set	preprocess-rcnn-leaf.py	/^dir_set = os.path.join(outputDir, "ImageSets")$/;"	v
+elapsed_time	process-clipping.py	/^	elapsed_time = time.time() - start_time$/;"	v
+files	google-play-screenshot-scraper.py	/^    files = glob.glob(a.input_dir + "\/*.json")$/;"	v
+folders	process-clipping.py	/^	folders = glob.glob(a.input_dir + "\/*20170510_cleaned*\/**")$/;"	v
+folders_list	preprocess-rcnn-leaf.py	/^    folders_list = glob.glob(a.input_dir + "\/*20170510_cleaned_outputs*\/**")$/;"	v
+fpath	process-screenshots.py	/^        fpath = os.path.join(DIR, sub)$/;"	v
+further	process-clipping.py	/^				further = float(v[1] - v[2]) \/ v[0] $/;"	v
+further	process-clipping.py	/^			further = 0.0$/;"	v
+further_remove	process-clipping.py	/^		further_remove = createClippings(w, meta_dump, further_remove)$/;"	v
+further_remove	process-clipping.py	/^	further_remove = {}$/;"	v
+getColor	process-clipping.py	/^def getColor(rgb):$/;"	f
+getDimensions	preprocess-rcnn-leaf.py	/^def getDimensions(coor_from, coor_to):$/;"	f
+getDimensions	process-clipping.py	/^def getDimensions(coor_from, coor_to):$/;"	f
+getFragments	process-clipping.py	/^def getFragments(folder):$/;"	f
+hash_dict	process-clipping.py	/^	hash_dict = Manager().dict()$/;"	v
+init	google-play-screenshot-scraper.py	/^def init(c):$/;"	f
+init	preprocess-rcnn-leaf.py	/^def init(c, t, s):$/;"	f
+init	process-clipping.py	/^def init(c, h, s):$/;"	f
+initial	process-clipping.py	/^				initial = float(v[0] - v[1]) \/ v[0] $/;"	v
+initial	process-clipping.py	/^			initial = 0.0$/;"	v
+meta_dump	google-play-screenshot-scraper.py	/^    meta_dump = {}$/;"	v
+meta_dump	process-clipping.py	/^	meta_dump = {}$/;"	v
+meta_dump_combined	process-clipping.py	/^	meta_dump_combined = {}$/;"	v
+num_processed	preprocess-rcnn-leaf.py	/^    num_processed = 0$/;"	v
+num_processed	process-clipping.py	/^	num_processed = 0$/;"	v
+outputDir	preprocess-rcnn-leaf.py	/^outputDir = "android_data_ambig_aug2_pb"$/;"	v
+p	google-play-screenshot-scraper.py	/^    p = Pool(initializer=init, initargs=(count,))$/;"	v
+parser	google-play-screenshot-scraper.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	preprocess-rcnn-leaf.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	process-clipping.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	process-screenshots.py	/^parser = argparse.ArgumentParser()$/;"	v
+pool	preprocess-rcnn-leaf.py	/^    pool = Pool(processes=6, initializer=init, initargs=(countValidFile, train_val, stats))$/;"	v
+pool	process-clipping.py	/^	pool = Pool(processes=8, initializer=init, initargs=(count, hash_dict, stats,))$/;"	v
+preprocess	preprocess-rcnn-leaf.py	/^def preprocess(input_folder):$/;"	f
+process	process-clipping.py	/^def process(folder):$/;"	f
+process	process-screenshots.py	/^def process():$/;"	f
+rem	preprocess-rcnn-leaf.py	/^def rem(ann):$/;"	f
+remove_overlap	preprocess-rcnn-leaf.py	/^def remove_overlap(widgets, status_bar):$/;"	f
+remove_overlap_duplicates	process-clipping.py	/^def remove_overlap_duplicates(widgets, widgets_folder):$/;"	f
+scrape	google-play-screenshot-scraper.py	/^def scrape():$/;"	f
+scrape_parallel	google-play-screenshot-scraper.py	/^def scrape_parallel(file):$/;"	f
+start	google-play-screenshot-scraper.py	/^    start = time.time()$/;"	v
+start_time	process-clipping.py	/^	start_time = time.time()$/;"	v
+stats	preprocess-rcnn-leaf.py	/^    stats = Manager().dict()$/;"	v
+stats	process-clipping.py	/^	stats = Manager().dict()$/;"	v
+target_list	preprocess-rcnn-leaf.py	/^target_list = ["TextView", "Button", "ImageButton", "SeekBar", "CheckBox", "RadioButton", "EditText",]$/;"	v
+target_list	process-clipping.py	/^target_list = ["Button", "ImageButton", "CompoundButton", "ProgressBar", "SeekBar", "Chronometer", "View", "CheckBox", "RadioButton", "Switch", "EditText", "ToggleButton", "RatingBar", "Spinner"]$/;"	v
+temp	process-clipping.py	/^		temp = dict(stats)$/;"	v
+train_test_split	preprocess-rcnn-leaf.py	/^def train_test_split(clip, anns, aug=False):$/;"	f
+train_val	preprocess-rcnn-leaf.py	/^    train_val = Manager().dict()$/;"	v

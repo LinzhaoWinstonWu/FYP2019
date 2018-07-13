@@ -1,0 +1,156 @@
+[
+   {
+      "clickable": "true",
+      "content-desc": "Share",
+      "coordinates": {
+         "from": [
+            463.5944700460829,
+            178.00548947849956
+         ],
+         "to": [
+            541.9354838709677,
+            261.4455626715462
+         ]
+      },
+      "dimensions": {
+         "height": 83.44007319304666,
+         "width": 78.34101382488478
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.VietnamTranslate_49-output/stoat_fsm_output/ui/S_1041",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Voice Input",
+      "coordinates": {
+         "from": [
+            541.9354838709677,
+            178.00548947849956
+         ],
+         "to": [
+            620.2764976958525,
+            261.4455626715462
+         ]
+      },
+      "dimensions": {
+         "height": 83.44007319304666,
+         "width": 78.34101382488484
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.VietnamTranslate_49-output/stoat_fsm_output/ui/S_1041",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Pro Version",
+      "coordinates": {
+         "from": [
+            620.2764976958525,
+            178.00548947849956
+         ],
+         "to": [
+            698.6175115207374,
+            261.4455626715462
+         ]
+      },
+      "dimensions": {
+         "height": 83.44007319304666,
+         "width": 78.34101382488484
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.VietnamTranslate_49-output/stoat_fsm_output/ui/S_1041",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            0,
+            441.67612076852697
+         ],
+         "to": [
+            698.6175115207374,
+            835.5132662397073
+         ]
+      },
+      "dimensions": {
+         "height": 393.8371454711803,
+         "width": 698.6175115207374
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.VietnamTranslate_49-output/stoat_fsm_output/ui/S_1041",
+      "text": "12st",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            0,
+            887.8023787740165
+         ],
+         "to": [
+            698.6175115207374,
+            1216
+         ]
+      },
+      "dimensions": {
+         "height": 328.19762122598354,
+         "width": 698.6175115207374
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.VietnamTranslate_49-output/stoat_fsm_output/ui/S_1041",
+      "text": "test",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            5,
+            1088
+         ],
+         "to": [
+            395,
+            1155
+         ]
+      },
+      "dimensions": {
+         "height": 0,
+         "width": 325.34562211981563
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.VietnamTranslate_49-output/stoat_fsm_output/ui/S_1041",
+      "text": "English",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            405,
+            1088
+         ],
+         "to": [
+            795,
+            1155
+         ]
+      },
+      "dimensions": {
+         "height": 0,
+         "width": 359.4470046082949
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.VietnamTranslate_49-output/stoat_fsm_output/ui/S_1041",
+      "text": "Vietnamese",
+      "widget_class": "Button"
+   }
+]

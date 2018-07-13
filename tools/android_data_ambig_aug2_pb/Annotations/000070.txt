@@ -1,0 +1,90 @@
+[
+   {
+      "clickable": "true",
+      "content-desc": "Email address",
+      "coordinates": {
+         "from": [
+            176.1570827489481,
+            390.68273092369475
+         ],
+         "to": [
+            684.4319775596073,
+            427.6580608146873
+         ]
+      },
+      "dimensions": {
+         "height": 36.975329890992555,
+         "width": 508.27489481065913
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_904",
+      "text": "",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Password",
+      "coordinates": {
+         "from": [
+            176.1570827489481,
+            442.30866322432587
+         ],
+         "to": [
+            684.4319775596073,
+            479.2839931153184
+         ]
+      },
+      "dimensions": {
+         "height": 36.975329890992555,
+         "width": 508.27489481065913
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_904",
+      "text": "",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            15.708274894810659,
+            924.3832472748135
+         ],
+         "to": [
+            326.507713884993,
+            969.0327022375214
+         ]
+      },
+      "dimensions": {
+         "height": 44.64945496270798,
+         "width": 310.79943899018235
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_904",
+      "text": "Manual setup",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            458.90603085554,
+            924.3832472748135
+         ],
+         "to": [
+            769.7054698457223,
+            969.0327022375214
+         ]
+      },
+      "dimensions": {
+         "height": 44.64945496270798,
+         "width": 310.7994389901823
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_904",
+      "text": "Next",
+      "widget_class": "Button"
+   }
+]

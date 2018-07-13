@@ -1,0 +1,5 @@
+-e !_TAG_FILE_SORTED		/2=foldcase/
+google-play-screenshot-scraper.py	./google-play-screenshot-scraper.py	1
+preprocess-rcnn-leaf.py	./preprocess-rcnn-leaf.py	1
+process-clipping.py	./process-clipping.py	1
+process-screenshots.py	./process-screenshots.py	1

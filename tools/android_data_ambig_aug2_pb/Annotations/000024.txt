@@ -1,0 +1,134 @@
+[
+   {
+      "clickable": "true",
+      "content-desc": "Share",
+      "coordinates": {
+         "from": [
+            545,
+            33
+         ],
+         "to": [
+            630,
+            108
+         ]
+      },
+      "dimensions": {
+         "height": 75,
+         "width": 85
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.PortTranslate_65-output/stoat_fsm_output/ui/S_987",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Voice Input",
+      "coordinates": {
+         "from": [
+            630,
+            33
+         ],
+         "to": [
+            715,
+            108
+         ]
+      },
+      "dimensions": {
+         "height": 75,
+         "width": 85
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.PortTranslate_65-output/stoat_fsm_output/ui/S_987",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Pro Version",
+      "coordinates": {
+         "from": [
+            715,
+            33
+         ],
+         "to": [
+            800,
+            108
+         ]
+      },
+      "dimensions": {
+         "height": 75,
+         "width": 85
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.PortTranslate_65-output/stoat_fsm_output/ui/S_987",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            0,
+            270
+         ],
+         "to": [
+            800,
+            624
+         ]
+      },
+      "dimensions": {
+         "height": 354,
+         "width": 800
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.PortTranslate_65-output/stoat_fsm_output/ui/S_987",
+      "text": "testt",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            5,
+            1087
+         ],
+         "to": [
+            395,
+            1156
+         ]
+      },
+      "dimensions": {
+         "height": 69,
+         "width": 390
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.PortTranslate_65-output/stoat_fsm_output/ui/S_987",
+      "text": "English",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            405,
+            1087
+         ],
+         "to": [
+            795,
+            1156
+         ]
+      },
+      "dimensions": {
+         "height": 69,
+         "width": 390
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.PortTranslate_65-output/stoat_fsm_output/ui/S_987",
+      "text": "Portuguese",
+      "widget_class": "Button"
+   }
+]

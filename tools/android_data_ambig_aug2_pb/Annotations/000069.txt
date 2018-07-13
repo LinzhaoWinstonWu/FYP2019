@@ -1,0 +1,90 @@
+[
+   {
+      "clickable": "true",
+      "content-desc": "Email address",
+      "coordinates": {
+         "from": [
+            207,
+            323
+         ],
+         "to": [
+            660,
+            376
+         ]
+      },
+      "dimensions": {
+         "height": 53,
+         "width": 453
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_904",
+      "text": "",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Password",
+      "coordinates": {
+         "from": [
+            207,
+            397
+         ],
+         "to": [
+            660,
+            450
+         ]
+      },
+      "dimensions": {
+         "height": 53,
+         "width": 453
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_904",
+      "text": "",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            64,
+            1088
+         ],
+         "to": [
+            341,
+            1152
+         ]
+      },
+      "dimensions": {
+         "height": 64,
+         "width": 277
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_904",
+      "text": "Manual setup",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            459,
+            1088
+         ],
+         "to": [
+            736,
+            1152
+         ]
+      },
+      "dimensions": {
+         "height": 64,
+         "width": 277
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.MedEbook_106-output/stoat_fsm_output/ui/S_904",
+      "text": "Next",
+      "widget_class": "Button"
+   }
+]

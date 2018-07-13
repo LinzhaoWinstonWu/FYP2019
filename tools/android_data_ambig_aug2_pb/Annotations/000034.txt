@@ -1,0 +1,134 @@
+[
+   {
+      "clickable": "true",
+      "content-desc": "Share",
+      "coordinates": {
+         "from": [
+            578.686759956943,
+            45.528861154446176
+         ],
+         "to": [
+            651.8837459634015,
+            116.66770670826834
+         ]
+      },
+      "dimensions": {
+         "height": 71.13884555382216,
+         "width": 73.19698600645847
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.RussianAzeriTranslate_35-output/stoat_fsm_output/ui/S_643",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Voice Input",
+      "coordinates": {
+         "from": [
+            651.8837459634015,
+            45.528861154446176
+         ],
+         "to": [
+            725.08073196986,
+            116.66770670826834
+         ]
+      },
+      "dimensions": {
+         "height": 71.13884555382216,
+         "width": 73.19698600645859
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.RussianAzeriTranslate_35-output/stoat_fsm_output/ui/S_643",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "Pro Version",
+      "coordinates": {
+         "from": [
+            725.08073196986,
+            45.528861154446176
+         ],
+         "to": [
+            798.2777179763186,
+            116.66770670826834
+         ]
+      },
+      "dimensions": {
+         "height": 71.13884555382216,
+         "width": 73.19698600645859
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.RussianAzeriTranslate_35-output/stoat_fsm_output/ui/S_643",
+      "text": "",
+      "widget_class": "ImageButton"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            109.3649085037675,
+            156.50546021840873
+         ],
+         "to": [
+            798.2777179763186,
+            548.2433697347893
+         ]
+      },
+      "dimensions": {
+         "height": 391.73790951638057,
+         "width": 688.9128094725511
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.RussianAzeriTranslate_35-output/stoat_fsm_output/ui/S_643",
+      "text": "12stt",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            113.67061356297094,
+            1046.2152886115446
+         ],
+         "to": [
+            449.51560818083965,
+            1109.7659906396257
+         ]
+      },
+      "dimensions": {
+         "height": 63.550702028081105,
+         "width": 335.8449946178687
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.RussianAzeriTranslate_35-output/stoat_fsm_output/ui/S_643",
+      "text": "Azerbaijani",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            458.12701829924646,
+            1046.2152886115446
+         ],
+         "to": [
+            793.9720129171152,
+            1109.7659906396257
+         ]
+      },
+      "dimensions": {
+         "height": 63.550702028081105,
+         "width": 335.84499461786874
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.RussianAzeriTranslate_35-output/stoat_fsm_output/ui/S_643",
+      "text": "Russian",
+      "widget_class": "Button"
+   }
+]

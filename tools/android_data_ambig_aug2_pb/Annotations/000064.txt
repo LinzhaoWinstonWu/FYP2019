@@ -1,0 +1,376 @@
+[
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            429.04458598726114,
+            0
+         ],
+         "to": [
+            800,
+            386.9724770642202
+         ]
+      },
+      "dimensions": {
+         "height": 386.9724770642202,
+         "width": 370.95541401273886
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "test52143952509000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "widget_class": "EditText"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            21.40127388535032,
+            414.1284403669725
+         ],
+         "to": [
+            418.85350318471336,
+            509.1743119266055
+         ]
+      },
+      "dimensions": {
+         "height": 95.04587155963304,
+         "width": 397.452229299363
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "Calculate",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            21.40127388535032,
+            529.5412844036697
+         ],
+         "to": [
+            153.88535031847135,
+            615.0825688073394
+         ]
+      },
+      "dimensions": {
+         "height": 85.54128440366969,
+         "width": 132.48407643312103
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "1",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            153.88535031847135,
+            529.5412844036697
+         ],
+         "to": [
+            286.36942675159236,
+            615.0825688073394
+         ]
+      },
+      "dimensions": {
+         "height": 85.54128440366969,
+         "width": 132.484076433121
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "2",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            286.36942675159236,
+            529.5412844036697
+         ],
+         "to": [
+            418.85350318471336,
+            615.0825688073394
+         ]
+      },
+      "dimensions": {
+         "height": 85.54128440366969,
+         "width": 132.484076433121
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "3",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            21.40127388535032,
+            615.0825688073394
+         ],
+         "to": [
+            153.88535031847135,
+            700.6238532110092
+         ]
+      },
+      "dimensions": {
+         "height": 85.5412844036698,
+         "width": 132.48407643312103
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "4",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            153.88535031847135,
+            615.0825688073394
+         ],
+         "to": [
+            286.36942675159236,
+            700.6238532110092
+         ]
+      },
+      "dimensions": {
+         "height": 85.5412844036698,
+         "width": 132.484076433121
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "5",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            286.36942675159236,
+            615.0825688073394
+         ],
+         "to": [
+            418.85350318471336,
+            700.6238532110092
+         ]
+      },
+      "dimensions": {
+         "height": 85.5412844036698,
+         "width": 132.484076433121
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "6",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            429.04458598726114,
+            414.1284403669725
+         ],
+         "to": [
+            800,
+            509.1743119266055
+         ]
+      },
+      "dimensions": {
+         "height": 95.04587155963304,
+         "width": 370.95541401273886
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "Exit",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            429.04458598726114,
+            529.5412844036697
+         ],
+         "to": [
+            561.5286624203821,
+            615.0825688073394
+         ]
+      },
+      "dimensions": {
+         "height": 85.54128440366969,
+         "width": 132.484076433121
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "7",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            561.5286624203821,
+            529.5412844036697
+         ],
+         "to": [
+            694.0127388535032,
+            615.0825688073394
+         ]
+      },
+      "dimensions": {
+         "height": 85.54128440366969,
+         "width": 132.484076433121
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "8",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            694.0127388535032,
+            529.5412844036697
+         ],
+         "to": [
+            800,
+            615.0825688073394
+         ]
+      },
+      "dimensions": {
+         "height": 85.54128440366969,
+         "width": 105.98726114649685
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "9",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            429.04458598726114,
+            615.0825688073394
+         ],
+         "to": [
+            561.5286624203821,
+            700.6238532110092
+         ]
+      },
+      "dimensions": {
+         "height": 85.5412844036698,
+         "width": 132.484076433121
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "0",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            561.5286624203821,
+            615.0825688073394
+         ],
+         "to": [
+            694.0127388535032,
+            700.6238532110092
+         ]
+      },
+      "dimensions": {
+         "height": 85.5412844036698,
+         "width": 132.484076433121
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "-",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            694.0127388535032,
+            615.0825688073394
+         ],
+         "to": [
+            800,
+            700.6238532110092
+         ]
+      },
+      "dimensions": {
+         "height": 85.5412844036698,
+         "width": 105.98726114649685
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": ".",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            429.04458598726114,
+            700.6238532110092
+         ],
+         "to": [
+            561.5286624203821,
+            786.165137614679
+         ]
+      },
+      "dimensions": {
+         "height": 85.5412844036698,
+         "width": 132.484076433121
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "/",
+      "widget_class": "Button"
+   },
+   {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            561.5286624203821,
+            700.6238532110092
+         ],
+         "to": [
+            800,
+            786.165137614679
+         ]
+      },
+      "dimensions": {
+         "height": 85.5412844036698,
+         "width": 238.47133757961785
+      },
+      "focusable": "true",
+      "src": "../data/ori_test_data/top_10000_google_play_20170510_cleaned_outputs_verbose_xml/an.ExpoCal_32-output/stoat_fsm_output/ui/S_2002",
+      "text": "del",
+      "widget_class": "Button"
+   }
+]
