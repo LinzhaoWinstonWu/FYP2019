@@ -25,7 +25,10 @@ dir_set = os.path.join(outputDir, "ImageSets")
 dir_ann = os.path.join(outputDir, "Annotations")
 
 #target_list = ["Button", "ImageButton", "CompoundButton", "ProgressBar", "SeekBar", "Chronometer", "CheckBox", "RadioButton", "Switch", "EditText", "ToggleButton", "RatingBar", "Spinner",] # "View"]
-target_list = ["TextView", "Button", "ImageButton", "SeekBar", "CheckBox", "RadioButton", "EditText",]
+#target_list = ["TextView", "Button", "ImageButton", "SeekBar", "CheckBox", "RadioButton", "EditText",]
+target_list = ['Checkbox', 'Button', 'Chronometer', 'RadioButton', 'RatingBar', 'SeekBar', 
+                    'EditText',
+                    'Spinner', 'ToggleButton', 'ProgressBar', 'CompoundButton', 'Switch', 'ImageButton']
 
         
 def checkFileValidity(inputFile):
@@ -57,6 +60,7 @@ def getDimensions(coor_from, coor_to):
     dim['width'] = coor_to[0] - coor_from[0]
     dim['height'] = coor_to[1] - coor_from[1]
     return dim
+
 
 def remove_overlap(widgets, status_bar):
     global countValidFile, train_val
@@ -108,20 +112,20 @@ def remove_overlap(widgets, status_bar):
             else:
                 clip = im.crop((0, 0, 800, 1216))
         except OSError as err:
-            print w[0]['src']
-            print "[-] OSError - " + str(err)
+            print(w[0]['src'])
+            print("[-] OSError - " + str(err))
             sys.stdout.flush()
             pass
         except IndexError as err:
-            print w[0]['src']
-            print "[-] IndexError - " + str(err)
+            print(w[0]['src'])
+            print("[-] IndexError - " + str(err))
             sys.stdout.flush()
             #print "[-] " + str(widget['coordinates'])
             #print "[-] " + str(widget['dimensions'])
             pass
         except IOError as err: #image file is truncated
-            print w[0]['src']
-            print "[-] IOError - " + str(err)
+            print(w[0]['src'])
+            print("[-] IOError - " + str(err))
             sys.stdout.flush()
             pass
 
@@ -205,27 +209,41 @@ def augment(img, anns):
     keypoints = ia.KeypointsOnImage(kps, shape=img.shape)
 
     #seq = iaa.Sequential([iaa.Fliplr(1.0)])
-    '''
-    seq = iaa.SomeOf(1, [
-        iaa.Fliplr(1.0),
-        iaa.CropAndPad(percent=(-0.25, 0.25)),
-        iaa.CropAndPad(percent=(-0.2, 0.2))
+    seq = iaa.SomeOf((1, None), [
+        # iaa.Fliplr(1.0),
+        iaa.AverageBlur(k=2),
+        iaa.Sometimes(
+            0.5,
+            iaa.CropAndPad(percent=(0, 0.25),
+                           pad_mode=["constant"],
+                           pad_cval=(0, 128)),
+            iaa.CropAndPad(
+                px=((0, 100), 100, (0, 100), 100),
+                pad_cval=(0, 128)
+            )
+        )
+
     ])
+
     '''
-    
     seq = iaa.Sometimes(
         0.3,
         iaa.Fliplr(1.0),
-        iaa.CropAndPad(percent=(-0.25, 0.25))
+        iaa.CropAndPad(percent=(0, 0.25))
     )
-    
+    '''
+
     seq_det = seq.to_deterministic()
-    
-    # augment keypoints and images
+
+    #augment keypoints and images
+    # im = Image.fromarray(img)
+    # im.show()
     img_aug = seq_det.augment_images([img])[0]
     keypoints_aug = seq_det.augment_keypoints([keypoints])[0]
 
-    im = Image.fromarray(img_aug)
+    # im = Image.fromarray(img_aug)
+    # im.show()
+    aug_anns = []
     #for i, value in range(len(anns)):
     for i, value in enumerate(anns):
         '''
@@ -256,7 +274,8 @@ def augment(img, anns):
         if keypoints_aug.keypoints[i*2+1].y > height:
             keypoints_aug.keypoints[i*2+1].y = height
 
-        anns[i]['dimensions'] = getDimensions((keypoints_aug.keypoints[i*2].x, keypoints_aug.keypoints[i*2].y), (keypoints_aug.keypoints[i*2+1].x, keypoints_aug.keypoints[i*2+1].y))
+        anns[i]['dimensions'] = getDimensions((keypoints_aug.keypoints[i*2].x, keypoints_aug.keypoints[i*2].y),
+                                              (keypoints_aug.keypoints[i*2+1].x, keypoints_aug.keypoints[i*2+1].y))
         if anns[i]['dimensions']['width'] == 0 or anns[i]['dimensions']['height'] == 0:
             continue
         anns[i]['coordinates']['from'] = (keypoints_aug.keypoints[i*2].x, keypoints_aug.keypoints[i*2].y)
@@ -267,9 +286,9 @@ def augment(img, anns):
     for idx in valid:
         aug_anns.append(anns[idx])
 
-    '''
     im = Image.fromarray(img_aug)
-    draw = ImageDraw.Draw(im)
+    # draw = ImageDraw.Draw(im)
+    '''
     for a in aug_anns:
         draw.rectangle((a['coordinates']['from'], a['coordinates']['to']), outline="red")
     '''
@@ -322,6 +341,7 @@ def train_test_split(clip, anns, aug=False):
         '''
 
         clip.save(os.path.join(dir_img, "{0:0>6}.png".format(count)))
+
         return aug
 
 def preprocess(input_folder):
@@ -338,11 +358,11 @@ def preprocess(input_folder):
             try:
                 Image.open(pngfile)
             except Exception as e:
-                print e
+                print(e)
                 sys.stdout.flush()
                 continue
 
-            print pngfile
+            print(pngfile)
             # check for duplicate image
             dup = False
             if not pnglist:
@@ -440,18 +460,18 @@ def preprocess(input_folder):
                     clip = im.crop((0, 0, 800, 1216))
                     w = widgets_xml
             except OSError as err:
-                print pngfile
-                print "[-] OSError - " + str(err)
+                print(pngfile)
+                print("[-] OSError - " + str(err))
                 sys.stdout.flush()
                 continue
             except IndexError as err:
-                print pngfile
-                print "[-] IndexError - " + str(err)
+                print(pngfile)
+                print("[-] IndexError - " + str(err))
                 sys.stdout.flush()
                 continue
             except IOError as err: #image file is truncated
-                print pngfile
-                print "[-] IOError - " + str(err)
+                print(pngfile)
+                print("[-] IOError - " + str(err))
                 sys.stdout.flush()
                 continue
 
@@ -468,30 +488,6 @@ def preprocess(input_folder):
             aug = train_test_split(clip, w)
             if aug:
                 augment(clip, w)
-
-            # Train/Test split for unaugmented dataset
-            with countValidFile.get_lock():
-                countValidFile.value += 1
-                count = countValidFile.value
-
-                if count % 10 == 1:    
-                    val = train_val['val']
-                    val.append("{:06d}".format(count))
-                    train_val['val'] = val
-                else:
-                    train = train_val['train']
-                    train.append("{:06d}".format(count))
-                    train_val['train'] = train
-                
-                trainval = train_val['trainval']
-                trainval.append("{:06d}".format(count))
-                train_val['trainval'] = trainval
-                
-                with open(os.path.join(dir_ann, "{0:0>6}.txt".format(count)), 'a+') as f:
-                    json.dump(w, f, sort_keys=True, indent=3, separators=(',', ': '))
-
-                clip.save(os.path.join(dir_img, "{0:0>6}.png".format(count)))
-
 
 def init(c, t, s):
     global countValidFile, train_val, stats
@@ -531,7 +527,7 @@ if __name__ == '__main__':
     for r in pool.imap(preprocess, folders_list):
         num_processed += 1
         if num_processed%5 is 0:
-            print "%s of %s processed" % (num_processed, len(folders_list))
+            print("%s of %s processed" % (num_processed, len(folders_list)))
             sys.stdout.flush()
     pool.close()
     pool.join()
