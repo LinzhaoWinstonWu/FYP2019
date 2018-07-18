@@ -27,7 +27,7 @@ dir_ann = os.path.join(outputDir, "Annotations")
 #target_list = ["Button", "ImageButton", "CompoundButton", "ProgressBar", "SeekBar", "Chronometer", "CheckBox", "RadioButton", "Switch", "EditText", "ToggleButton", "RatingBar", "Spinner",] # "View"]
 #target_list = ["TextView", "Button", "ImageButton", "SeekBar", "CheckBox", "RadioButton", "EditText",]
 target_list = ['Checkbox', 'Button', 'Chronometer', 'RadioButton', 'RatingBar', 'SeekBar', 
-                    'EditText',
+                    #'EditText',
                     'Spinner', 'ToggleButton', 'ProgressBar', 'CompoundButton', 'Switch', 'ImageButton']
 
         
@@ -208,6 +208,7 @@ def augment(img, anns):
 
     keypoints = ia.KeypointsOnImage(kps, shape=img.shape)
 
+    '''
     #seq = iaa.Sequential([iaa.Fliplr(1.0)])
     seq = iaa.SomeOf((1, None), [
         # iaa.Fliplr(1.0),
@@ -231,7 +232,6 @@ def augment(img, anns):
         iaa.Fliplr(1.0),
         iaa.CropAndPad(percent=(0, 0.25))
     )
-    '''
 
     seq_det = seq.to_deterministic()
 
@@ -485,9 +485,32 @@ def preprocess(input_folder):
             '''
 
             # Train/Test split for augmented dataset
-            aug = train_test_split(clip, w)
-            if aug:
-                augment(clip, w)
+            #aug = train_test_split(clip, w)
+            #if aug:
+            #    augment(clip, w)
+            # Train/Test split for unaugmented dataset
+            with countValidFile.get_lock():
+                countValidFile.value += 1
+                count = countValidFile.value
+ 
+                if count % 10 == 1:    
+                    val = train_val['val']
+                    val.append("{:06d}".format(count))
+                    train_val['val'] = val
+                else:
+                    train = train_val['train']
+                    train.append("{:06d}".format(count))
+                    train_val['train'] = train
+                
+                trainval = train_val['trainval']
+                trainval.append("{:06d}".format(count))
+                train_val['trainval'] = trainval
+                
+                with open(os.path.join(dir_ann, "{0:0>6}.txt".format(count)), 'a+') as f:
+                    json.dump(w, f, sort_keys=True, indent=3, separators=(',', ': '))
+ 
+                clip.save(os.path.join(dir_img, "{0:0>6}.png".format(count)))
+
 
 def init(c, t, s):
     global countValidFile, train_val, stats
