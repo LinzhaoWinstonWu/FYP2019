@@ -1,0 +1,48 @@
+======= For whole dataset ======
+length of whole dataset : 164442
+{'ImageButton': 237276, 'Switch': 9867, 'ProgressBar': 15166, 'SeekBar': 11831, 'EditText': 186601, 'Spinner': 147476, 'CheckBox': 77929, 'Button': 272400, 'RadioButton': 30284, 'ToggleButton': 18986, 'CompoundButton': 9639, 'Chronometer': 3339, 'RatingBar': 3048}
+   ImageButton : 23.18%
+        Switch :  0.96%
+   ProgressBar :  1.48%
+       SeekBar :  1.16%
+      EditText : 18.23%
+       Spinner : 14.40%
+      CheckBox :  7.61%
+        Button : 26.61%
+   RadioButton :  2.96%
+  ToggleButton :  1.85%
+CompoundButton :  0.94%
+   Chronometer :  0.33%
+     RatingBar :  0.30%
+======= For train dataset ======
+length of train dataset : 153479
+{'ImageButton': 221446, 'Switch': 9193, 'ProgressBar': 14169, 'SeekBar': 11102, 'EditText': 174378, 'Spinner': 137882, 'CheckBox': 72830, 'Button': 254033, 'RadioButton': 28105, 'ToggleButton': 17559, 'CompoundButton': 8983, 'Chronometer': 3113, 'RatingBar': 2867}
+   ImageButton : 23.17%
+        Switch :  0.96%
+   ProgressBar :  1.48%
+       SeekBar :  1.16%
+      EditText : 18.25%
+       Spinner : 14.43%
+      CheckBox :  7.62%
+        Button : 26.58%
+   RadioButton :  2.94%
+  ToggleButton :  1.84%
+CompoundButton :  0.94%
+   Chronometer :  0.33%
+     RatingBar :  0.30%
+======= For val dataset ======
+length of validation dataset : 10963
+{'ImageButton': 15830, 'Switch': 674, 'ProgressBar': 997, 'SeekBar': 729, 'EditText': 12223, 'Spinner': 9594, 'CheckBox': 5099, 'Button': 18367, 'RadioButton': 2179, 'ToggleButton': 1427, 'CompoundButton': 656, 'Chronometer': 226, 'RatingBar': 181}
+   ImageButton : 23.22%
+        Switch :  0.99%
+   ProgressBar :  1.46%
+       SeekBar :  1.07%
+      EditText : 17.93%
+       Spinner : 14.07%
+      CheckBox :  7.48%
+        Button : 26.94%
+   RadioButton :  3.20%
+  ToggleButton :  2.09%
+CompoundButton :  0.96%
+   Chronometer :  0.33%
+     RatingBar :  0.27%
